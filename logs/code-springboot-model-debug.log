@@ -1,0 +1,134 @@
+[2022-12-01 17:42:496] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-01 17:56:884] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.deleteBatchIds:137] - ==>  Preparing: DELETE FROM code_model WHERE id IN ( ? , ? )
+[2022-12-01 17:56:916] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.deleteBatchIds:137] - ==> Parameters: 1(String), 2(String)
+[2022-12-01 17:56:973] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.deleteBatchIds:137] - <==    Updates: 0
+[2022-12-01 21:02:379] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-01 21:02:373] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.deleteBatchIds:137] - ==>  Preparing: DELETE FROM code_model WHERE id IN ( ? , ? )
+[2022-12-01 21:02:399] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.deleteBatchIds:137] - ==> Parameters: 1(String), 2(String)
+[2022-12-01 21:02:470] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.deleteBatchIds:137] - <==    Updates: 0
+[2022-12-01 21:03:898] [http-nio-8080-exec-2] [DEBUG] [x.f.c.s.m.c.m.M.customPage_mpCount:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM code_model WHERE model_name REGEXP ?
+[2022-12-01 21:03:900] [http-nio-8080-exec-2] [DEBUG] [x.f.c.s.m.c.m.M.customPage_mpCount:137] - ==> Parameters: 6(String)
+[2022-12-01 21:03:943] [http-nio-8080-exec-2] [DEBUG] [x.f.c.s.m.c.m.M.customPage_mpCount:137] - <==      Total: 1
+[2022-12-01 21:03:950] [http-nio-8080-exec-2] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.customPage:137] - ==>  Preparing: select * from code_model where model_name regexp ? LIMIT ?
+[2022-12-01 21:03:951] [http-nio-8080-exec-2] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.customPage:137] - ==> Parameters: 6(String), 10(Long)
+[2022-12-01 21:03:002] [http-nio-8080-exec-2] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.customPage:137] - <==      Total: 2
+[2022-12-01 21:06:199] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-01 21:10:971] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==>  Preparing: SELECT id,model_name,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM code_model WHERE id=?
+[2022-12-01 21:10:995] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==> Parameters: 1598229684828827649(String)
+[2022-12-01 21:10:058] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - <==      Total: 1
+[2022-12-01 21:11:408] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-01 21:11:915] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==>  Preparing: SELECT id,model_name,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM code_model WHERE id=?
+[2022-12-01 21:11:938] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==> Parameters: 1598229684828827649(String)
+[2022-12-01 21:11:994] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - <==      Total: 1
+[2022-12-01 21:13:776] [http-nio-8080-exec-3] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.updateById:137] - ==>  Preparing: UPDATE code_model SET model_name=?, is_enabled=?, is_deleted=?, updater_id=?, updater_name=?, updated_at=? WHERE id=?
+[2022-12-01 21:13:779] [http-nio-8080-exec-3] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.updateById:137] - ==> Parameters: test6(String), 0(Integer), 0(Integer), null, null, null, 1598229684828827649(String)
+[2022-12-01 21:13:855] [http-nio-8080-exec-3] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.updateById:137] - <==    Updates: 1
+[2022-12-01 21:13:232] [http-nio-8080-exec-4] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.updateById:137] - ==>  Preparing: UPDATE code_model SET model_name=?, is_enabled=?, is_deleted=?, updater_id=?, updater_name=?, updated_at=? WHERE id=?
+[2022-12-01 21:13:234] [http-nio-8080-exec-4] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.updateById:137] - ==> Parameters: test6-X(String), 0(Integer), 0(Integer), null, null, null, 1598229684828827649(String)
+[2022-12-01 21:13:311] [http-nio-8080-exec-4] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.updateById:137] - <==    Updates: 1
+[2022-12-01 21:13:450] [http-nio-8080-exec-5] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==>  Preparing: SELECT id,model_name,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM code_model WHERE id=?
+[2022-12-01 21:13:451] [http-nio-8080-exec-5] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==> Parameters: 1598229684828827649(String)
+[2022-12-01 21:13:485] [http-nio-8080-exec-5] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - <==      Total: 1
+[2022-12-01 22:12:922] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-01 22:15:149] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-01 22:24:822] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-01 22:31:377] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-02 09:49:347] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-02 09:53:459] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-02 09:57:862] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-02 10:00:897] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-02 10:54:264] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-02 22:46:598] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-02 22:49:915] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-02 22:59:099] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-02 23:02:289] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-02 23:24:205] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-03 00:14:403] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-03 00:17:879] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-03 00:18:896] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-03 00:20:140] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-03 00:40:093] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-03 00:40:866] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==>  Preparing: INSERT INTO sys_menu ( id, `name`, `path`, pid, `level`, creator_id, updater_id, creator_name, updater_name, created_at, updated_at ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+[2022-12-03 00:40:898] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1000(Long), 模版模块(String), /model(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:899] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1001(Long), 更新(String), /update(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:901] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1002(Long), 添加(String), /save(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:903] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1003(Long), 查看详情(String), /info/{id}(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:905] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1004(Long), (String), /page1(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:908] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1005(Long), (String), /page2(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:911] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1006(Long), 删除(String), /deletes(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:917] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 2000(Long), 系统菜单模块(String), /sysMenu(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:919] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 2001(Long), (String), /sync(String), 2000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:921] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 3000(Long), 系统角色模块(String), /sysRole(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:922] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 4000(Long), 系统用户模块(String), /sysUser(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:925] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5000(Long), 测试模块(String), /test(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:926] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5001(Long), (String), /exp2(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:928] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5002(Long), (String), /rt0(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:930] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5003(Long), (String), /rt1(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:935] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5004(Long), (String), /rt2(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:938] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5005(Long), (String), /rt3(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:939] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5006(Long), (String), /exp0(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:40:940] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5007(Long), (String), /exp1(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:42:610] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-03 00:43:506] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==>  Preparing: INSERT INTO sys_menu ( id, `name`, `path`, pid, `level`, creator_id, updater_id, creator_name, updater_name, created_at, updated_at ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+[2022-12-03 00:43:536] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1000(Long), 模版模块(String), /model(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:538] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1001(Long), 更新(String), /model/update(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:539] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1002(Long), 添加(String), /model/save(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:541] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1003(Long), (String), /model/page2(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:544] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1004(Long), (String), /model/page1(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:546] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1005(Long), 删除(String), /model/deletes(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:547] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1006(Long), 查看详情(String), /model/info/{id}(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:551] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 2000(Long), 系统菜单模块(String), /sysMenu(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:553] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 2001(Long), (String), /sysMenu/sync(String), 2000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:555] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 3000(Long), 系统角色模块(String), /sysRole(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:556] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 4000(Long), 系统用户模块(String), /sysUser(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:558] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5000(Long), 测试模块(String), /test(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:561] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5001(Long), (String), /test/exp2(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:562] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5002(Long), (String), /test/rt3(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:564] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5003(Long), (String), /test/exp1(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:568] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5004(Long), (String), /test/rt2(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:571] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5005(Long), (String), /test/exp0(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:572] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5006(Long), (String), /test/rt0(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:43:573] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5007(Long), (String), /test/rt1(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:47:111] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-03 00:48:905] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-03 00:48:009] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==>  Preparing: INSERT INTO sys_menu ( id, `name`, `path`, pid, `level`, creator_id, updater_id, creator_name, updater_name, created_at, updated_at ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+[2022-12-03 00:48:039] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1000(Long), 模版模块(String), /model(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:041] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1002(Long), 更新(String), /model/update(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:043] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1003(Long), 添加(String), /model/save(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:044] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1004(Long), 查看详情(String), /model/info/{id}(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:046] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1005(Long), 删除(String), /model/deletes(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:049] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1006(Long), (String), /model/page2(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:051] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1007(Long), (String), /model/page1(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:056] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 2000(Long), 系统菜单模块(String), /sysMenu(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:059] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 2002(Long), (String), /sysMenu/sync(String), 2000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:061] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 3000(Long), 系统角色模块(String), /sysRole(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:062] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 4000(Long), 系统用户模块(String), /sysUser(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:064] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5000(Long), 测试模块(String), /test(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:066] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5002(Long), (String), /test/rt1(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:068] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5003(Long), (String), /test/exp1(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:070] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5004(Long), (String), /test/exp0(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:076] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5005(Long), (String), /test/rt3(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:078] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5006(Long), (String), /test/rt2(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:080] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5007(Long), (String), /test/rt0(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:48:082] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5008(Long), (String), /test/exp2(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:49:962] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-03 00:50:047] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==>  Preparing: INSERT INTO sys_menu ( id, `name`, `path`, pid, `level`, creator_id, updater_id, creator_name, updater_name, created_at, updated_at ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+[2022-12-03 00:50:080] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1000(Long), 模版模块(String), /model(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:081] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1001(Long), (String), /model/page1(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:084] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1002(Long), (String), /model/page2(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:086] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1003(Long), 删除(String), /model/deletes(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:088] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1004(Long), 更新(String), /model/update(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:093] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1005(Long), 添加(String), /model/save(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:095] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 1006(Long), 查看详情(String), /model/info/{id}(String), 1000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:100] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 2000(Long), 系统菜单模块(String), /sysMenu(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:104] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 2001(Long), (String), /sysMenu/sync(String), 2000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:106] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 3000(Long), 系统角色模块(String), /sysRole(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:109] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 4000(Long), 系统用户模块(String), /sysUser(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:111] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5000(Long), 测试模块(String), /test(String), 0(Long), 1(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:113] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5001(Long), (String), /test/rt3(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:115] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5002(Long), (String), /test/exp0(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:116] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5003(Long), (String), /test/rt2(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:129] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5004(Long), (String), /test/rt0(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:132] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5005(Long), (String), /test/rt1(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:134] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5006(Long), (String), /test/exp1(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-03 00:50:136] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5007(Long), (String), /test/exp2(String), 5000(Long), 2(Integer), null, null, null, null, null, null

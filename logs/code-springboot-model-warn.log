@@ -1,0 +1,4 @@
+[2022-12-03 00:40:741] [http-nio-8080-exec-1] [WARN ] [x.f.c.s.m.c.s.impl.SysMenuServiceImpl:179] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d97c8c1] Transaction not enabled
+[2022-12-03 00:43:404] [http-nio-8080-exec-1] [WARN ] [x.f.c.s.m.c.s.impl.SysMenuServiceImpl:179] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2355f9d8] Transaction not enabled
+[2022-12-03 00:48:884] [http-nio-8080-exec-1] [WARN ] [x.f.c.s.m.c.s.impl.SysMenuServiceImpl:179] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f261816] Transaction not enabled
+[2022-12-03 00:50:928] [http-nio-8080-exec-1] [WARN ] [x.f.c.s.m.c.s.impl.SysMenuServiceImpl:179] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17f9e341] Transaction not enabled
