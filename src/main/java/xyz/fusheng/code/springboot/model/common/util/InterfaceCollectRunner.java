@@ -24,8 +24,8 @@ import java.util.Map;
  */
 
 @Slf4j
-@Component
-@Order(value = 1)
+//@Component
+//@Order(value = 1)
 public class InterfaceCollectRunner implements ApplicationContextAware, CommandLineRunner {
 
     private ApplicationContext applicationContext;

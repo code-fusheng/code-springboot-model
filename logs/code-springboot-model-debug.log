@@ -132,3 +132,77 @@
 [2022-12-03 00:50:132] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5005(Long), (String), /test/rt1(String), 5000(Long), 2(Integer), null, null, null, null, null, null
 [2022-12-03 00:50:134] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5006(Long), (String), /test/exp1(String), 5000(Long), 2(Integer), null, null, null, null, null, null
 [2022-12-03 00:50:136] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.mapper.SysMenuMapper.insert:137] - ==> Parameters: 5007(Long), (String), /test/exp2(String), 5000(Long), 2(Integer), null, null, null, null, null, null
+[2022-12-04 11:29:368] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 11:48:280] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 13:47:228] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:08:086] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:19:799] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:20:890] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:20:452] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:21:785] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:22:175] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:22:205] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:23:038] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:23:863] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:23:886] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:23:157] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:23:279] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==>  Preparing: select r.* from sys_role r left join sys_user_role_ref ur on ur.role_id = r.id where ur.user_id = ?
+[2022-12-04 14:23:280] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==> Parameters: 1(Long)
+[2022-12-04 14:23:595] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - <==      Total: 1
+[2022-12-04 14:25:800] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:26:490] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:26:885] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:26:907] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:26:994] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:26:116] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==>  Preparing: select r.* from sys_role r left join sys_user_role_ref ur on ur.role_id = r.id where ur.user_id = ?
+[2022-12-04 14:26:117] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==> Parameters: 1(Long)
+[2022-12-04 14:26:415] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - <==      Total: 1
+[2022-12-04 14:27:690] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:28:202] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:28:270] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:28:300] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:28:389] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:30:849] [http-nio-8080-exec-3] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:30:850] [http-nio-8080-exec-3] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:30:917] [http-nio-8080-exec-3] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:32:574] [http-nio-8080-exec-5] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:32:577] [http-nio-8080-exec-5] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:32:651] [http-nio-8080-exec-5] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:32:659] [http-nio-8080-exec-6] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:32:661] [http-nio-8080-exec-6] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:32:729] [http-nio-8080-exec-6] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:32:058] [http-nio-8080-exec-7] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:32:059] [http-nio-8080-exec-7] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:32:126] [http-nio-8080-exec-7] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:33:176] [http-nio-8080-exec-8] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:33:178] [http-nio-8080-exec-8] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:33:272] [http-nio-8080-exec-8] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:34:536] [http-nio-8080-exec-10] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:34:537] [http-nio-8080-exec-10] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:34:604] [http-nio-8080-exec-10] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:35:471] [http-nio-8080-exec-2] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:35:473] [http-nio-8080-exec-2] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:35:570] [http-nio-8080-exec-2] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:36:801] [http-nio-8080-exec-3] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==>  Preparing: SELECT id,model_name,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM code_model WHERE id=?
+[2022-12-04 14:36:803] [http-nio-8080-exec-3] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==> Parameters: 1598229684828827649(String)
+[2022-12-04 14:36:872] [http-nio-8080-exec-3] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - <==      Total: 1
+[2022-12-04 14:36:210] [http-nio-8080-exec-4] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==>  Preparing: SELECT id,model_name,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM code_model WHERE id=?
+[2022-12-04 14:36:211] [http-nio-8080-exec-4] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==> Parameters: 1598229684828827649(String)
+[2022-12-04 14:36:460] [http-nio-8080-exec-4] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - <==      Total: 1
+[2022-12-04 14:37:964] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:37:900] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:37:921] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:37:230] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:37:348] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==>  Preparing: select r.* from sys_role r left join sys_user_role_ref ur on ur.role_id = r.id where ur.user_id = ?
+[2022-12-04 14:37:350] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==> Parameters: 1(Long)
+[2022-12-04 14:37:431] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - <==      Total: 1
+[2022-12-04 14:39:870] [http-nio-8080-exec-7] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-04 14:39:872] [http-nio-8080-exec-7] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-04 14:39:942] [http-nio-8080-exec-7] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-04 14:39:050] [http-nio-8080-exec-7] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==>  Preparing: select r.* from sys_role r left join sys_user_role_ref ur on ur.role_id = r.id where ur.user_id = ?
+[2022-12-04 14:39:051] [http-nio-8080-exec-7] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==> Parameters: 1(Long)
+[2022-12-04 14:39:187] [http-nio-8080-exec-7] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - <==      Total: 1
+[2022-12-04 14:41:741] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-04 14:41:461] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==>  Preparing: SELECT id,model_name,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM code_model WHERE id=?
+[2022-12-04 14:41:493] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==> Parameters: 1598229684828827649(String)
+[2022-12-04 14:41:577] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - <==      Total: 1

@@ -21,3 +21,9 @@ mybatis-plus:
     enable: false
     parent: xyz.fusheng
     moduleName: code.springboot.model
+jwt:
+  secret: JWTSecret
+  tokenHeader: Authorization
+  tokenPrefix: Code-
+  expiration: 86400
+

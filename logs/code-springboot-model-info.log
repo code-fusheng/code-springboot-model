@@ -691,3 +691,72 @@
 [2022-12-03 00:50:911] [http-nio-8080-exec-1] [INFO ] [x.f.c.s.m.c.s.impl.SysMenuServiceImpl:86] - post:/rt1
 [2022-12-03 00:50:911] [http-nio-8080-exec-1] [INFO ] [x.f.c.s.m.c.s.impl.SysMenuServiceImpl:86] - post:/exp1
 [2022-12-03 00:50:912] [http-nio-8080-exec-1] [INFO ] [x.f.c.s.m.c.s.impl.SysMenuServiceImpl:86] - post:/exp2
+[2022-12-04 11:29:365] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 80257 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 11:29:369] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 11:29:316] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 5.655 seconds (JVM running for 6.433)
+[2022-12-04 11:29:332] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:43] - controller:modelController - value:xyz.fusheng.code.springboot.model.controller.ModelController@501957bf
+[2022-12-04 11:29:332] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:45] - class:class xyz.fusheng.code.springboot.model.controller.ModelController
+[2022-12-04 11:29:332] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:47] - value:/model
+[2022-12-04 11:29:332] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/page2
+[2022-12-04 11:29:333] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/deletes
+[2022-12-04 11:29:333] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/page1
+[2022-12-04 11:29:333] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:56] - get:/info/{id}
+[2022-12-04 11:29:333] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/update
+[2022-12-04 11:29:333] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/save
+[2022-12-04 11:29:333] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:43] - controller:sysMenuController - value:xyz.fusheng.code.springboot.model.controller.SysMenuController@5d1d9d73
+[2022-12-04 11:29:333] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:45] - class:class xyz.fusheng.code.springboot.model.controller.SysMenuController
+[2022-12-04 11:29:333] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:47] - value:/sysMenu
+[2022-12-04 11:29:334] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/sync
+[2022-12-04 11:29:334] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:43] - controller:sysRoleController - value:xyz.fusheng.code.springboot.model.controller.SysRoleController@b30a50d
+[2022-12-04 11:29:334] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:45] - class:class xyz.fusheng.code.springboot.model.controller.SysRoleController
+[2022-12-04 11:29:334] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:47] - value:/sysRole
+[2022-12-04 11:29:335] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:43] - controller:sysUserController - value:xyz.fusheng.code.springboot.model.controller.SysUserController@764a3e5d
+[2022-12-04 11:29:335] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:45] - class:class xyz.fusheng.code.springboot.model.controller.SysUserController
+[2022-12-04 11:29:335] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:47] - value:/sysUser
+[2022-12-04 11:29:335] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:43] - controller:testController - value:xyz.fusheng.code.springboot.model.controller.TestController@6c742b84
+[2022-12-04 11:29:335] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:45] - class:class xyz.fusheng.code.springboot.model.controller.TestController
+[2022-12-04 11:29:336] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:47] - value:/test
+[2022-12-04 11:29:336] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/exp2
+[2022-12-04 11:29:337] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/rt0
+[2022-12-04 11:29:337] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/rt1
+[2022-12-04 11:29:337] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/rt2
+[2022-12-04 11:29:337] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/rt3
+[2022-12-04 11:29:338] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/exp0
+[2022-12-04 11:29:338] [main] [INFO ] [x.f.c.s.m.c.util.InterfaceCollectRunner:53] - post:/exp1
+[2022-12-04 11:48:280] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 80729 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 11:48:281] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 11:48:311] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 4.552 seconds (JVM running for 5.317)
+[2022-12-04 13:47:228] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 83711 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 13:47:229] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 13:47:824] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 4.054 seconds (JVM running for 4.692)
+[2022-12-04 14:08:085] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 84423 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:08:086] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:19:798] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 84863 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:19:800] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:20:889] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 84900 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:20:891] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:20:451] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 84922 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:20:453] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:21:785] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 84979 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:21:786] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:21:535] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 4.18 seconds (JVM running for 4.688)
+[2022-12-04 14:23:038] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 85030 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:23:039] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:23:578] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 3.971 seconds (JVM running for 4.573)
+[2022-12-04 14:25:799] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 85094 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:25:801] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:26:490] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 85126 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:26:491] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:26:995] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 3.985 seconds (JVM running for 4.545)
+[2022-12-04 14:27:689] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 85182 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:27:690] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:27:636] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 5.47 seconds (JVM running for 6.089)
+[2022-12-04 14:28:201] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 85219 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:28:202] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:28:635] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 3.902 seconds (JVM running for 4.425)
+[2022-12-04 14:37:964] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 85442 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:37:965] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:37:461] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 3.925 seconds (JVM running for 4.469)
+[2022-12-04 14:41:740] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.2.203 with PID 85577 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/code-springboot-model)
+[2022-12-04 14:41:741] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-04 14:41:168] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 3.904 seconds (JVM running for 4.584)
