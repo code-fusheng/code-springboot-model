@@ -19,6 +19,11 @@
         <java.version>1.8</java.version>
 
         <jjwt.version>0.9.0</jjwt.version>
+        <jedis.version>2.9.0</jedis.version>
+        <!-- office 相关 -->
+        <poi-tl.version>1.12.0</poi-tl.version>
+
+        <liteflow.version>2.9.2</liteflow.version>
     </properties>
 
     <dependencies>
@@ -38,11 +43,33 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
+        <!-- Redis 操作基础客户端 Jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${jedis.version}</version>
+            <scope>test</scope>
+        </dependency>
+
         <!--jjwt -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
             <version>${jjwt.version}</version>
+        </dependency>
+
+        <!-- Poi-tl -->
+        <dependency>
+            <groupId>com.deepoove</groupId>
+            <artifactId>poi-tl</artifactId>
+            <version>${poi-tl.version}</version>
+        </dependency>
+
+        <!-- LiteFlow 规则引擎 -->
+        <dependency>
+            <groupId>com.yomahub</groupId>
+            <artifactId>liteflow-spring-boot-starter</artifactId>
+            <version>${liteflow.version}</version>
         </dependency>
 
     </dependencies>

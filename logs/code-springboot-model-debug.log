@@ -206,3 +206,19 @@
 [2022-12-04 14:41:461] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==>  Preparing: SELECT id,model_name,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM code_model WHERE id=?
 [2022-12-04 14:41:493] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - ==> Parameters: 1598229684828827649(String)
 [2022-12-04 14:41:577] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.selectById:137] - <==      Total: 1
+[2022-12-06 19:31:487] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-06 19:32:929] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-06 19:32:899] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==>  Preparing: select * from sys_user where username =? or user_id = ?
+[2022-12-06 19:32:933] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==> Parameters: code-fusheng(String), 1(Long)
+[2022-12-06 19:33:264] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-06 19:33:265] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==>  Preparing: select * from sys_user where username =? or id = ?
+[2022-12-06 19:33:301] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==> Parameters: code-fusheng(String), 1(Long)
+[2022-12-06 19:33:395] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - <==      Total: 1
+[2022-12-06 19:35:370] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-06 19:35:270] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==>  Preparing: select * from sys_user where username =? or id = ?
+[2022-12-06 19:35:556] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==> Parameters: code-fusheng(String), 1(Long)
+[2022-12-06 19:35:885] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - <==      Total: 1
+[2022-12-06 19:36:546] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-06 19:39:857] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==>  Preparing: select * from sys_user where username =? or id = ?
+[2022-12-06 19:39:889] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==> Parameters: code-fusheng(String), 1(Long)
+[2022-12-06 19:39:988] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - <==      Total: 1

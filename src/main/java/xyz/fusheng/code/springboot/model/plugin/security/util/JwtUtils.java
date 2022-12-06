@@ -6,7 +6,6 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import xyz.fusheng.code.springboot.model.plugin.security.config.JwtConfig;
 import xyz.fusheng.code.springboot.model.plugin.security.entity.CustomUser;
 
-import javax.annotation.Resource;
 import java.util.Date;
 
 /**
@@ -16,9 +15,6 @@ import java.util.Date;
  */
 
 public class JwtUtils {
-
-    @Resource
-    private JwtConfig jwtConfig;
 
     public static String createAccessToken(CustomUser customUser){
         String token = Jwts.builder()

@@ -1,19 +1,17 @@
 package xyz.fusheng.code.springboot.model.model.entity;
 
-import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
-import java.io.Serializable;
-import java.math.BigDecimal;
-import java.util.Date;
-import xyz.fusheng.code.springboot.core.entity.BaseEntity;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
+import xyz.fusheng.code.springboot.core.entity.BaseEntity;
+
+import java.math.BigDecimal;
 
 /**
  * <p>
@@ -27,6 +25,7 @@ import lombok.Setter;
 @Setter
 @TableName("sys_user")
 @ApiModel(value = "SysUser对象", description = "系统-用户表")
+@ToString
 public class SysUser extends BaseEntity {
 
     private static final long serialVersionUID = 1L;

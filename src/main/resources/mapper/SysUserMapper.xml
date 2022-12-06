@@ -15,4 +15,12 @@
         where ur.user_id = #{userId}
     </select>
 
+    <select id="selectUserByUsername" resultType="xyz.fusheng.code.springboot.model.model.entity.SysUser" >
+        select * from sys_user where username = #{username}
+    </select>
+
+    <select id="selectUserList" resultType="xyz.fusheng.code.springboot.model.model.entity.SysUser">
+        select * from sys_user where username =#{username} or id = #{id}
+    </select>
+
 </mapper>
