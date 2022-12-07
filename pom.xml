@@ -12,7 +12,7 @@
 
     <groupId>xyz.fusheng</groupId>
     <artifactId>code-springboot-model</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <name>code-springboot-model</name>
     <description>code-springboot-model</description>
     <properties>

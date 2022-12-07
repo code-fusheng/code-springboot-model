@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- https://docs.spring.io/spring-framework/docs/5.0.8.RELEASE/spring-framework-reference/core.html#spring-core -->
+
+    <!-- 等效于注解配置与Yaml配置 -->
+    <!-- Spring 在启动阶段会使用 MapperScannerConfigurer 类对指定包进行扫描，
+    对于被扫描到的映射接口，mybatis-spring 会将其当作 MapperFactoryBean 对象注册到 Spring 的 Bean 列表中
+    进而 MapperFactoryBean 可以给出映射接口的代理类。
+         Spring Boot 基于 mybatis-spring 的支持，增加了负责完成自动化配置工作的 mybatis-spring-boot-autoconfigure 项目，
+    并一同封装进了 mybatis-spring-boot-starter 项目 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="xyz.fusheng.code.springboot.model.core.mapper" />
+    </bean>
+
+</beans>

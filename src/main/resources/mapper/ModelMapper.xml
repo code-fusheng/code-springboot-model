@@ -2,6 +2,25 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="xyz.fusheng.code.springboot.model.core.mapper.ModelMapper">
 
+    <!-- 命名空间缓存共享 -->
+    <!--<cache-ref namespace=""/>-->
+
+    <!-- resultMap 支持继承 -->
+    <!-- resultMap 继承关系的解析又 ResultMapResolver 类来完成 -->
+    <resultMap id="model1Map" type="Model" autoMapping="false">
+        <id property="id" column="id" javaType="Long" jdbcType="BIGINT"
+            typeHandler="org.apache.ibatis.type.BigIntegerTypeHandler" />
+        <result property="modelName" column="model_name" />
+        <discriminator javaType="int" column="is_enabled">
+            <case value="1" resultMap="model1Map" />
+            <case value="0" resultMap="model2Map" />
+        </discriminator>
+    </resultMap>
+
+    <resultMap id="model2Map" type="Model" extends="model1Map">
+        <result property="remark" column="remark" />
+    </resultMap>
+
     <select id="customPage" resultType="xyz.fusheng.code.springboot.model.model.entity.Model">
         select * from code_model
         where model_name regexp #{pageDto.modelName}

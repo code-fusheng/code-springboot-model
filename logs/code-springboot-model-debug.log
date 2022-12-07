@@ -230,3 +230,10 @@
 [2022-12-07 20:50:068] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==>  Preparing: select * from sys_user where username =? or id = ?
 [2022-12-07 20:50:391] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==> Parameters: code-fusheng(String), 1(Long)
 [2022-12-07 20:50:754] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - <==      Total: 1
+[2022-12-07 23:50:017] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-07 23:51:497] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-07 23:51:528] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-07 23:51:639] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-07 23:51:772] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==>  Preparing: select r.* from sys_role r left join sys_user_role_ref ur on ur.role_id = r.id where ur.user_id = ?
+[2022-12-07 23:51:773] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==> Parameters: 1(Long)
+[2022-12-07 23:51:852] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - <==      Total: 1

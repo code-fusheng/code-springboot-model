@@ -43,6 +43,12 @@ public class MybatisTest {
         log.info("user2:{}", user2);
     }
 
+    @Test
+    public void testLogging() {
+        // 是否开启 Trace
+        System.out.println(log.isTraceEnabled());
+    }
+
 }
 
 
