@@ -1,5 +1,6 @@
 package xyz.fusheng.code.springboot.model.tools.orm.mybatis;
 
+import org.apache.ibatis.builder.ParameterExpression;
 import org.apache.ibatis.reflection.TypeParameterResolver;
 
 import java.lang.reflect.Type;
@@ -20,8 +21,14 @@ public class MybatisToolsTest {
         System.out.println(type2);
     }
 
+    public static void testParameterExpression() {
+        ParameterExpression expression = new ParameterExpression("count, mode=OUT, jdbcType=NUMERIC");
+        System.out.println(expression);
+    }
+
     public static void main(String[] args) throws NoSuchMethodException {
-        testTypeParameterResolver();
+        // testTypeParameterResolver();
+        testParameterExpression();
     }
 
 }

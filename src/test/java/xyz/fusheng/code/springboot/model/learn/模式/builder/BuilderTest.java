@@ -29,6 +29,8 @@ public class BuilderTest {
         User user = new SunnySchoolUserBuilder("code-fusheng").setSex(24).setSex(1).build();
         System.out.println(user);
 
+        User test = new User.InnerBuilder().name("test").age(1).sex(1).build();
+        System.out.println(test);
     }
 
 }

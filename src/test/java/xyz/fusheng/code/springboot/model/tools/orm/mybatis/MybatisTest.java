@@ -9,9 +9,12 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import xyz.fusheng.code.springboot.model.core.mapper.ModelMapper;
 import xyz.fusheng.code.springboot.model.core.mapper.SysUserMapper;
+import xyz.fusheng.code.springboot.model.model.entity.Model;
 import xyz.fusheng.code.springboot.model.model.entity.SysUser;
 
+import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -26,21 +29,52 @@ import java.io.InputStream;
 @RunWith(SpringRunner.class)
 public class MybatisTest {
 
-    @Test
-    public void testMybatis() throws IOException {
+    private SqlSession session;
+
+    @PostConstruct
+    public void init() throws IOException {
         String resource = "mybatis-config.xml";
         InputStream inputStream = null;
         inputStream = Resources.getResourceAsStream(resource);
         // 配置信息读取
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-        SqlSession session = sqlSessionFactory.openSession();
+        session = sqlSessionFactory.openSession();
+    }
+
+    @Test
+    public void testMybatis() throws IOException {
+
         SysUserMapper userMapper = session.getMapper(SysUserMapper.class);
         SysUser userParams = new SysUser();
         userParams.setUsername("code-fusheng");
-//        SysUser user1 = userMapper.selectUserByUsername("code-fusheng");
-//        log.info("user1:{}", user1);
-        SysUser user2 = userMapper.selectUserList(1L, "code-fusheng");
-        log.info("user2:{}", user2);
+
+        // SysUser user1 = userMapper.selectUserByUsername("code-fusheng");
+        // log.info("user1:{}", user1);
+
+        // SysUser user2 = userMapper.selectUserList(1L, "code-fusheng");
+        // log.info("user2:{}", user2);
+
+    }
+
+    /**
+     * SQL 片段
+     */
+    @Test
+    public void testMybatisSqlFragment() {
+        ModelMapper modelMapper = session.getMapper(ModelMapper.class);
+        Model model = modelMapper.selectModelByModelName("test");
+        log.info("model:{}", model);
+    }
+
+    @Test
+    public void testMybatisScripting() {
+        Model model = new Model();
+        model.setId(1L);
+        model.setModelName("test");
+
+        ModelMapper modelMapper = session.getMapper(ModelMapper.class);
+        Model modelResult = modelMapper.selectModelByIdOrModelName(model);
+        log.info("modelResult:{}", modelResult);
     }
 
     @Test

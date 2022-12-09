@@ -16,14 +16,18 @@
     <name>code-springboot-model</name>
     <description>code-springboot-model</description>
     <properties>
+        <!-- language -->
         <java.version>1.8</java.version>
+        <ognl.version>3.3.3</ognl.version>
 
-        <jjwt.version>0.9.0</jjwt.version>
+
         <jedis.version>2.9.0</jedis.version>
         <!-- office 相关 -->
         <poi-tl.version>1.12.0</poi-tl.version>
-
         <liteflow.version>2.9.2</liteflow.version>
+        <!-- tools -->
+        <jjwt.version>0.9.0</jjwt.version>
+        <guava.version>31.1-jre</guava.version>
     </properties>
 
     <dependencies>
@@ -70,6 +74,20 @@
             <groupId>com.yomahub</groupId>
             <artifactId>liteflow-spring-boot-starter</artifactId>
             <version>${liteflow.version}</version>
+        </dependency>
+
+        <!-- Ognl 对象图导航语言 -->
+        <dependency>
+            <groupId>ognl</groupId>
+            <artifactId>ognl</artifactId>
+            <version>${ognl.version}</version>
+        </dependency>
+
+        <!-- Google 布隆过滤器 -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
 
     </dependencies>

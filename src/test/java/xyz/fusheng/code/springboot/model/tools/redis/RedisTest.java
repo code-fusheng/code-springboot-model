@@ -72,12 +72,12 @@ public class RedisTest {
          * 这里使用默认的 {@link RedisTemplate} 设置 Redis 数据，会造成 Redis 数据乱码。
          * 默认情况下 RedisTemplate 针对 Key 和 Value 使用了 JDK 序列化。  {@link RedisTemplate#afterPropertiesSet() => JdkSerializationRedisSerializer}
          */
-        redisTemplate.opsForValue().set("redisTemplate:test1", new Model("1", "redisTemplate"));
+        redisTemplate.opsForValue().set("redisTemplate:test1", new Model(1L, "redisTemplate"));
         /**
          * 这里使用 StringRedisTemplate 并不会导致数据乱码。
          * StringRedisTemplate 默认情况下使用的是 String 序列化方式，Key 和 Value 只能是 String。{@link StringRedisTemplate => RedisSerializer.string() => StringRedisSerializer}
          */
-        stringRedisTemplate.opsForValue().set("stringRedisTemplate:test1", objectMapper.writeValueAsString(new Model("1", "stringRedisTemplate")));
+        stringRedisTemplate.opsForValue().set("stringRedisTemplate:test1", objectMapper.writeValueAsString(new Model(1L, "stringRedisTemplate")));
         // null
         //logger.info("[redisTemplate] => value:{}", redisTemplate.opsForValue().get("stringRedisTemplate:test1"));
         // null

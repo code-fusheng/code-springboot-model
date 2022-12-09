@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <settings>
+        <!-- 开启下划线转驼峰 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
     <typeAliases>
         <package name="xyz.fusheng.code.springboot.model.model.entity"/>
     </typeAliases>
@@ -17,5 +21,6 @@
     </environments>
     <mappers>
         <mapper resource="mapper/SysUserMapper.xml"/>
+        <mapper resource="mapper/ModelMapper.xml"/>
     </mappers>
 </configuration>

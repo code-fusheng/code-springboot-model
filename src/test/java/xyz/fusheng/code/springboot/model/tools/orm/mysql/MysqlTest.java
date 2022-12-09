@@ -26,16 +26,20 @@ public class MysqlTest {
 
     private static final Logger logger = LoggerFactory.getLogger(MysqlTest.class);
 
+    private static final String url = "jdbc:mysql://42.192.222.62:33307/code-springboot-model?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true";
+    private static final String user = "root";
+    private static final String password = "123456";
+
     @Test
     public void testMysql() throws Exception {
         Class<?> aClass = Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://rm-bp15mj67u7y8p5761lo.mysql.rds.aliyuncs.com:3306/test-mybatis?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8", "root", "zH1314520");
+        Connection conn = DriverManager.getConnection(url, user, password);
         Statement stmt = conn.createStatement();
-        ResultSet resultSet = stmt.executeQuery("select * from user where id = 1");
+        ResultSet resultSet = stmt.executeQuery("select * from code_model where id = 1598134730123902977");
         while (resultSet.next()) {
-            int id = resultSet.getInt("id");
-            String name = resultSet.getString("name");
-            logger.info("id:{} - name:{}", id, name);
+            long id = resultSet.getLong("id");
+            String name = resultSet.getString("model_name");
+            logger.info("id:{} - modelName:{}", id, name);
         }
         stmt.close();
     }

@@ -5,10 +5,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import xyz.fusheng.code.springboot.core.entity.BaseEntity;
 
 /**
@@ -25,11 +22,12 @@ import xyz.fusheng.code.springboot.core.entity.BaseEntity;
 @ApiModel(value = "Model对象", description = "")
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 public class Model extends BaseEntity {
 
     @ApiModelProperty("主键")
     @TableId(value = "id", type = IdType.AUTO)
-    private String id;
+    private Long id;
 
     @ApiModelProperty("模版名称")
     private String modelName;

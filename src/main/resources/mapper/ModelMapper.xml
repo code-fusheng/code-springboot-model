@@ -7,9 +7,8 @@
 
     <!-- resultMap 支持继承 -->
     <!-- resultMap 继承关系的解析又 ResultMapResolver 类来完成 -->
-    <resultMap id="model1Map" type="Model" autoMapping="false">
-        <id property="id" column="id" javaType="Long" jdbcType="BIGINT"
-            typeHandler="org.apache.ibatis.type.BigIntegerTypeHandler" />
+    <resultMap id="model1Map" type="xyz.fusheng.code.springboot.model.model.entity.Model" autoMapping="false">
+        <id property="id" column="id" javaType="Long" jdbcType="BIGINT" typeHandler="org.apache.ibatis.type.BigIntegerTypeHandler"/>
         <result property="modelName" column="model_name" />
         <discriminator javaType="int" column="is_enabled">
             <case value="1" resultMap="model1Map" />
@@ -17,13 +16,39 @@
         </discriminator>
     </resultMap>
 
-    <resultMap id="model2Map" type="Model" extends="model1Map">
+    <resultMap id="model2Map" type="xyz.fusheng.code.springboot.model.model.entity.Model" extends="model1Map">
         <result property="remark" column="remark" />
     </resultMap>
+
+    <!-- SQL 片段 -->
+    <sql id="byModelName">
+        and model_name = #{modelName}
+    </sql>
+
+    <!-- 入参映射处理 ParameterMap ParameterMapping  -->
+    <parameterMap id="modelParam01" type="xyz.fusheng.code.springboot.model.model.entity.Model">
+        <parameter property="modelName" javaType="String" />
+    </parameterMap>
+
+    <select id="selectModelByModelName" resultType="xyz.fusheng.code.springboot.model.model.entity.Model">
+        select * from code_model where 1 = 1 <include refid="byModelName" />
+    </select>
 
     <select id="customPage" resultType="xyz.fusheng.code.springboot.model.model.entity.Model">
         select * from code_model
         where model_name regexp #{pageDto.modelName}
+    </select>
+
+    <select id="selectModelByIdOrModelName" resultType="xyz.fusheng.code.springboot.model.model.entity.Model">
+        select id, model_name from code_model
+        <where>
+            <if test="id != null">
+                id = #{id}
+            </if>
+            <if test="modelName != null">
+                or model_name = #{modelName}
+            </if>
+        </where>
     </select>
 
 </mapper>

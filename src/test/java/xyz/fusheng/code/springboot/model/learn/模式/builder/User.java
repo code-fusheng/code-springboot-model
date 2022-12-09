@@ -21,5 +21,31 @@ public class User {
     private Integer sex;
     private String schoolName;
 
+    // 内部类建造者
+    public static class InnerBuilder {
+
+        private User user = new User();
+
+        public InnerBuilder name(String name) {
+            user.name = name;
+            return this;
+        }
+
+        public InnerBuilder age(Integer age) {
+            user.age = age;
+            return this;
+        }
+
+        public InnerBuilder sex(Integer sex) {
+            user.sex = sex;
+            return this;
+        }
+
+        public User build() {
+            return user;
+        }
+
+    }
+
 }
 
