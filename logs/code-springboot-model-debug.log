@@ -237,3 +237,214 @@
 [2022-12-07 23:51:772] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==>  Preparing: select r.* from sys_role r left join sys_user_role_ref ur on ur.role_id = r.id where ur.user_id = ?
 [2022-12-07 23:51:773] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==> Parameters: 1(Long)
 [2022-12-07 23:51:852] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - <==      Total: 1
+[2022-12-08 16:38:187] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 16:42:501] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 16:42:693] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==>  Preparing: select * from sys_user where username =? or id = ?
+[2022-12-08 16:42:727] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==> Parameters: code-fusheng(String), 1(Long)
+[2022-12-08 16:42:818] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - <==      Total: 1
+[2022-12-08 16:42:511] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 16:44:297] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==>  Preparing: select * from sys_user where username =? or id = ?
+[2022-12-08 16:44:329] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - ==> Parameters: code-fusheng(String), 1(Long)
+[2022-12-08 16:44:415] [main] [DEBUG] [x.f.c.s.m.c.m.S.selectUserList:137] - <==      Total: 1
+[2022-12-08 17:01:925] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 17:01:973] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==>  Preparing: select * from code_model where 1 = 1 and model_name ?
+[2022-12-08 17:01:011] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==> Parameters: test(String)
+[2022-12-08 17:02:657] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 17:02:735] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==>  Preparing: select * from code_model where 1 = 1 and model_name = ?
+[2022-12-08 17:02:767] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==> Parameters: test(String)
+[2022-12-08 17:02:863] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - <==      Total: 1
+[2022-12-08 17:02:911] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 17:03:488] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==>  Preparing: select * from code_model where 1 = 1 and model_name = ?
+[2022-12-08 17:03:520] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==> Parameters: test(String)
+[2022-12-08 17:03:616] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - <==      Total: 1
+[2022-12-08 19:46:276] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 19:48:306] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 19:49:926] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 19:49:111] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==>  Preparing: select * from code_model where 1 = 1 and model_name = ?
+[2022-12-08 19:49:143] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==> Parameters: test(String)
+[2022-12-08 19:49:249] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - <==      Total: 1
+[2022-12-08 20:10:105] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:10:353] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select * from code_model WHERE id = ? and model_name = ?
+[2022-12-08 20:10:391] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(String), test(String)
+[2022-12-08 20:10:497] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - <==      Total: 0
+[2022-12-08 20:11:110] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:11:246] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select * from code_model WHERE id = ? or model_name = ?
+[2022-12-08 20:11:282] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(String), test(String)
+[2022-12-08 20:11:391] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - <==      Total: 1
+[2022-12-08 20:26:206] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:26:949] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==>  Preparing: select * from code_model where 1 = 1 and model_name = ?
+[2022-12-08 20:26:984] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==> Parameters: test(String)
+[2022-12-08 20:26:074] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - <==      Total: 1
+[2022-12-08 20:27:840] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:27:113] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==>  Preparing: select * from code_model where 1 = 1 and model_name = ?
+[2022-12-08 20:27:146] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==> Parameters: test(String)
+[2022-12-08 20:27:238] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - <==      Total: 1
+[2022-12-08 20:28:864] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:29:917] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==>  Preparing: select * from code_model where 1 = 1 and model_name = ?
+[2022-12-08 20:29:951] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==> Parameters: test(String)
+[2022-12-08 20:29:040] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - <==      Total: 1
+[2022-12-08 20:29:061] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:29:912] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select *, model_name as modelName from code_model WHERE id = ? or model_name = ?
+[2022-12-08 20:29:938] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(String), test(String)
+[2022-12-08 20:29:021] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - <==      Total: 1
+[2022-12-08 20:33:253] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:34:022] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:34:261] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select * from code_model WHERE id = ? or model_name = ?
+[2022-12-08 20:34:294] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(String), test(String)
+[2022-12-08 20:37:135] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:37:989] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select * from code_model WHERE id = ? or model_name = ?
+[2022-12-08 20:37:023] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(String), test(String)
+[2022-12-08 20:37:564] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:38:609] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:38:583] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select * from code_model WHERE id = ? or model_name = ?
+[2022-12-08 20:38:616] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(String), test(String)
+[2022-12-08 20:40:588] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:41:870] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:42:045] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select * from code_model WHERE id = ? or model_name = ?
+[2022-12-08 20:42:070] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(Long), test(String)
+[2022-12-08 20:42:812] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:42:039] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select * from code_model WHERE id = ? or model_name = ?
+[2022-12-08 20:42:066] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(Long), test(String)
+[2022-12-08 20:43:800] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:44:768] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select * from code_model WHERE id = ? or model_name = ?
+[2022-12-08 20:44:799] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(Long), test(String)
+[2022-12-08 20:47:720] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-08 20:47:198] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select id, model_name from code_model WHERE id = ? or model_name = ?
+[2022-12-08 20:47:227] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(Long), test(String)
+[2022-12-08 20:47:326] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - <==      Total: 1
+[2022-12-09 16:05:530] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-09 23:09:769] [main] [DEBUG] [x.f.c.s.model.tools.orm.mysql.MysqlTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-09 23:10:762] [main] [DEBUG] [x.f.c.s.model.tools.orm.mysql.MysqlTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-09 23:11:914] [main] [DEBUG] [x.f.c.s.model.tools.orm.mysql.MysqlTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-09 23:12:284] [main] [DEBUG] [x.f.c.s.model.tools.orm.mysql.MysqlTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-09 23:29:042] [main] [DEBUG] [x.f.c.s.model.tools.orm.mysql.MysqlTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-09 23:31:124] [main] [DEBUG] [x.f.c.s.m.tools.orm.mysql.ConnectionTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-09 23:33:931] [main] [DEBUG] [x.f.c.s.model.tools.orm.mysql.MysqlTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-09 23:38:252] [main] [DEBUG] [x.f.c.s.model.tools.orm.mysql.MysqlTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-10 00:32:782] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-10 00:33:347] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==>  Preparing: select * from code_model where 1 = 1 and model_name = ?
+[2022-12-10 00:33:379] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==> Parameters: test(String)
+[2022-12-10 00:34:061] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-10 00:34:315] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==>  Preparing: select id, model_name from code_model where 1 = 1 and model_name = ?
+[2022-12-10 00:34:348] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - ==> Parameters: test(String)
+[2022-12-10 00:34:433] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByModelName:137] - <==      Total: 1
+[2022-12-10 16:15:447] [main] [DEBUG] [x.f.c.s.model.tools.orm.mysql.MysqlTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-10 16:26:286] [main] [DEBUG] [x.f.c.s.model.tools.orm.mysql.MysqlTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-10 21:39:554] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-10 21:40:997] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==>  Preparing: select id, model_name from code_model WHERE id = ? or model_name = ?
+[2022-12-10 21:40:030] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - ==> Parameters: 1(Long), test(String)
+[2022-12-10 21:40:166] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelByIdOrModelName:137] - <==      Total: 1
+[2022-12-11 10:22:551] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 10:23:083] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - ==>  Preparing: select id, model_name from code_model where model_name regexp ?
+[2022-12-11 10:23:112] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - ==> Parameters: test(String)
+[2022-12-11 10:23:174] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - <==      Total: 8
+[2022-12-11 10:31:614] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 10:31:434] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - ==>  Preparing: select id, model_name from code_model where model_name regexp ?
+[2022-12-11 10:31:471] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - ==> Parameters: test(String)
+[2022-12-11 10:34:958] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - <==      Total: 8
+[2022-12-11 12:16:213] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 12:17:286] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 12:17:537] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - ==>  Preparing: insert into code_model (model_name) values (?)
+[2022-12-11 12:17:574] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - ==> Parameters: testId-Generator(String)
+[2022-12-11 12:17:648] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - <==    Updates: 1
+[2022-12-11 12:21:535] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 12:21:186] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - ==>  Preparing: insert into code_model (model_name) values (?)
+[2022-12-11 12:21:223] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - ==> Parameters: testId-Generator(String)
+[2022-12-11 12:21:292] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - <==    Updates: 1
+[2022-12-11 12:23:043] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 12:23:880] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - ==>  Preparing: insert into code_model (model_name) values (?)
+[2022-12-11 12:23:915] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - ==> Parameters: testId-Generator(String)
+[2022-12-11 12:23:974] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - <==    Updates: 1
+[2022-12-11 12:23:977] [main] [DEBUG] [x.f.c.s.m.c.m.M.insertModel!selectKey:137] - ==>  Preparing: SELECT LAST_INSERT_ID()
+[2022-12-11 12:23:977] [main] [DEBUG] [x.f.c.s.m.c.m.M.insertModel!selectKey:137] - ==> Parameters: 
+[2022-12-11 12:23:044] [main] [DEBUG] [x.f.c.s.m.c.m.M.insertModel!selectKey:137] - <==      Total: 1
+[2022-12-11 12:26:172] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 12:26:222] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - ==>  Preparing: insert into code_model (model_name) values (?)
+[2022-12-11 12:26:254] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - ==> Parameters: testId-Generator(String)
+[2022-12-11 12:26:317] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - <==    Updates: 1
+[2022-12-11 12:26:321] [main] [DEBUG] [x.f.c.s.m.c.m.M.insertModel!selectKey:137] - ==>  Preparing: SELECT LAST_INSERT_ID()
+[2022-12-11 12:26:322] [main] [DEBUG] [x.f.c.s.m.c.m.M.insertModel!selectKey:137] - ==> Parameters: 
+[2022-12-11 12:26:378] [main] [DEBUG] [x.f.c.s.m.c.m.M.insertModel!selectKey:137] - <==      Total: 1
+[2022-12-11 12:28:617] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 12:28:536] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - ==>  Preparing: insert into code_model (model_name) values (?)
+[2022-12-11 12:28:567] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - ==> Parameters: testId-Generator(String)
+[2022-12-11 12:28:632] [main] [DEBUG] [x.f.c.s.m.c.m.ModelMapper.insertModel:137] - <==    Updates: 1
+[2022-12-11 12:28:636] [main] [DEBUG] [x.f.c.s.m.c.m.M.insertModel!selectKey:137] - ==>  Preparing: SELECT LAST_INSERT_ID()
+[2022-12-11 12:28:637] [main] [DEBUG] [x.f.c.s.m.c.m.M.insertModel!selectKey:137] - ==> Parameters: 
+[2022-12-11 12:28:687] [main] [DEBUG] [x.f.c.s.m.c.m.M.insertModel!selectKey:137] - <==      Total: 1
+[2022-12-11 12:29:239] [main] [DEBUG] [x.f.c.springboot.model.ModelApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 12:30:730] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==>  Preparing: SELECT id,uuid,username,`password`,avatar,mobile,mail,signature,`description`,real_name,sex,address,lng,lat,`status`,version,remark,memo,is_enabled,is_deleted,creator_id,updater_id,creator_name,updater_name,created_at,updated_at FROM sys_user WHERE (username = ? AND is_enabled = ?)
+[2022-12-11 12:30:760] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - ==> Parameters: code-fusheng(String), 1(Integer)
+[2022-12-11 12:30:817] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.SysUserMapper.selectList:137] - <==      Total: 1
+[2022-12-11 12:30:947] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==>  Preparing: select r.* from sys_role r left join sys_user_role_ref ur on ur.role_id = r.id where ur.user_id = ?
+[2022-12-11 12:30:948] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - ==> Parameters: 1(Long)
+[2022-12-11 12:30:983] [http-nio-8080-exec-1] [DEBUG] [x.f.c.s.m.c.m.S.selectRoleByUserId:137] - <==      Total: 1
+[2022-12-11 12:31:817] [http-nio-8080-exec-4] [DEBUG] [x.f.c.s.m.core.mapper.ModelMapper.insert:137] - ==>  Preparing: INSERT INTO code_model ( model_name, creator_id, updater_id, creator_name, updater_name, created_at, updated_at ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+[2022-12-11 12:31:819] [http-nio-8080-exec-4] [DEBUG] [x.f.c.s.m.core.mapper.ModelMapper.insert:137] - ==> Parameters: test(String), null, null, null, null, null, null
+[2022-12-11 12:31:800] [http-nio-8080-exec-4] [DEBUG] [x.f.c.s.m.core.mapper.ModelMapper.insert:137] - <==    Updates: 1
+[2022-12-11 14:22:268] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 14:22:446] [main] [DEBUG] [x.f.c.s.model.core.mapper.ModelMapper:60] - Cache Hit Ratio [xyz.fusheng.code.springboot.model.core.mapper.ModelMapper]: 0.0
+[2022-12-11 14:22:294] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - ==>  Preparing: CALL query_model_procedure(?)
+[2022-12-11 14:22:384] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - ==> Parameters: test(String)
+[2022-12-11 14:23:360] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 14:23:430] [main] [DEBUG] [x.f.c.s.model.core.mapper.ModelMapper:60] - Cache Hit Ratio [xyz.fusheng.code.springboot.model.core.mapper.ModelMapper]: 0.0
+[2022-12-11 14:23:240] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - ==>  Preparing: CALL query_model(?)
+[2022-12-11 14:23:311] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - ==> Parameters: test(String)
+[2022-12-11 14:23:272] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 14:24:387] [main] [DEBUG] [x.f.c.s.model.core.mapper.ModelMapper:60] - Cache Hit Ratio [xyz.fusheng.code.springboot.model.core.mapper.ModelMapper]: 0.0
+[2022-12-11 14:24:251] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - ==>  Preparing: CALL query_model(?)
+[2022-12-11 14:24:340] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - ==> Parameters: test(String)
+[2022-12-11 14:24:411] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - <==      Total: 1
+[2022-12-11 14:24:412] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - <==    Updates: 0
+[2022-12-11 14:36:699] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 14:36:805] [main] [DEBUG] [x.f.c.s.model.core.mapper.ModelMapper:60] - Cache Hit Ratio [xyz.fusheng.code.springboot.model.core.mapper.ModelMapper]: 0.0
+[2022-12-11 14:37:827] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - ==>  Preparing: CALL query_model(?)
+[2022-12-11 14:37:908] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - ==> Parameters: test(String)
+[2022-12-11 14:37:972] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - <==      Total: 1
+[2022-12-11 14:37:973] [main] [DEBUG] [x.f.c.s.m.c.mapper.ModelMapper.runCall:137] - <==    Updates: 0
+[2022-12-11 15:10:500] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 15:11:763] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - ==>  Preparing: select id, model_name from code_model where model_name regexp ?
+[2022-12-11 15:12:257] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - ==> Parameters: test(String)
+[2022-12-11 15:12:312] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - <==      Total: 1
+[2022-12-11 15:32:457] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 15:32:646] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - ==>  Preparing: select id, model_name from code_model where model_name regexp ?
+[2022-12-11 15:32:099] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - ==> Parameters: test(String)
+[2022-12-11 15:32:152] [main] [DEBUG] [x.f.c.s.m.c.m.M.selectModelsRegexpName:137] - <==      Total: 1
+[2022-12-11 16:26:142] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 16:26:325] [main] [DEBUG] [x.f.c.s.model.core.mapper.ModelMapper:60] - Cache Hit Ratio [xyz.fusheng.code.springboot.model.core.mapper.ModelMapper]: 0.0
+[2022-12-11 16:26:200] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==>  Preparing: CALL learn_multi_results()
+[2022-12-11 16:26:288] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==> Parameters: 
+[2022-12-11 16:26:360] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==      Total: 4
+[2022-12-11 16:27:231] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 16:27:570] [main] [DEBUG] [x.f.c.s.model.core.mapper.ModelMapper:60] - Cache Hit Ratio [xyz.fusheng.code.springboot.model.core.mapper.ModelMapper]: 0.0
+[2022-12-11 16:27:475] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==>  Preparing: CALL learn_multi_results()
+[2022-12-11 16:27:564] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==> Parameters: 
+[2022-12-11 16:27:627] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==      Total: 4
+[2022-12-11 16:30:371] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 16:30:525] [main] [DEBUG] [x.f.c.s.model.core.mapper.ModelMapper:60] - Cache Hit Ratio [xyz.fusheng.code.springboot.model.core.mapper.ModelMapper]: 0.0
+[2022-12-11 16:30:372] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==>  Preparing: CALL learn_multi_results()
+[2022-12-11 16:30:447] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==> Parameters: 
+[2022-12-11 16:30:521] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==      Total: 4
+[2022-12-11 16:30:525] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==      Total: 1
+[2022-12-11 16:30:526] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==    Updates: 0
+[2022-12-11 16:30:772] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 16:30:125] [main] [DEBUG] [x.f.c.s.model.core.mapper.ModelMapper:60] - Cache Hit Ratio [xyz.fusheng.code.springboot.model.core.mapper.ModelMapper]: 0.0
+[2022-12-11 16:30:957] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==>  Preparing: CALL learn_multi_results()
+[2022-12-11 16:30:379] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==> Parameters: 
+[2022-12-11 16:30:622] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==      Total: 4
+[2022-12-11 16:30:630] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==      Total: 1
+[2022-12-11 16:30:632] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==    Updates: 0
+[2022-12-11 16:32:504] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 16:32:387] [main] [DEBUG] [x.f.c.s.model.core.mapper.ModelMapper:60] - Cache Hit Ratio [xyz.fusheng.code.springboot.model.core.mapper.ModelMapper]: 0.0
+[2022-12-11 16:32:186] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==>  Preparing: CALL learn_multi_results()
+[2022-12-11 16:32:274] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==> Parameters: 
+[2022-12-11 16:32:340] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==      Total: 4
+[2022-12-11 16:32:342] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==      Total: 1
+[2022-12-11 16:32:342] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==    Updates: 0
+[2022-12-11 16:58:563] [main] [DEBUG] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+[2022-12-11 16:58:165] [main] [DEBUG] [x.f.c.s.model.core.mapper.ModelMapper:60] - Cache Hit Ratio [xyz.fusheng.code.springboot.model.core.mapper.ModelMapper]: 0.0
+[2022-12-11 16:59:901] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==>  Preparing: CALL learn_multi_results()
+[2022-12-11 16:59:324] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - ==> Parameters: 
+[2022-12-12 11:21:525] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==      Total: 4
+[2022-12-12 11:21:561] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==      Total: 1
+[2022-12-12 11:21:562] [main] [DEBUG] [x.f.c.s.m.c.m.M.testMultiResults:137] - <==    Updates: 0

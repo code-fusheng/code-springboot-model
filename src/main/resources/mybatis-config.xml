@@ -4,6 +4,18 @@
     <settings>
         <!-- 开启下划线转驼峰 -->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--
+            一级缓存 / 本地缓存 配置
+            配置缓存作用范围: SESSION 会话 / STATEMENT 语句
+         -->
+        <setting name="localCacheScope" value="SESSION"/>
+        <!-- 二级缓存 -->
+        <setting name="cacheEnabled" value="true"/>
+        <!--
+            启动 Jdbc3KeyGenerator 主键配置
+            <setting name="useGeneratedKeys" value="true"/>
+         -->
+
     </settings>
     <typeAliases>
         <package name="xyz.fusheng.code.springboot.model.model.entity"/>
@@ -11,6 +23,7 @@
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
+            <!-- POOLED 池化数据源 -->
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://42.192.222.62:33307/code-springboot-model?serverTimezone=GMT%2B8&amp;useUnicode=true&amp;characterEncoding=utf8&amp;rewriteBatchedStatements=true"/>

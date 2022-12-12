@@ -789,3 +789,222 @@
 [2022-12-07 23:50:002] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.0.101 with PID 90237 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
 [2022-12-07 23:50:023] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
 [2022-12-07 23:50:806] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 5.547 seconds (JVM running for 6.793)
+[2022-12-08 16:38:184] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 7169 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 16:38:189] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 16:42:499] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 7316 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 16:42:503] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 16:42:049] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.204 seconds (JVM running for 8.644)
+[2022-12-08 16:42:820] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:43] - user2:SysUser(id=1, uuid=1, username=code-fusheng, password=$2a$10$pwUFaYUOBy61xI/iBN5HM.AEwnqWKwOJvV3RfuCoGhzHCmqo6cC16, avatar=null, mobile=null, mail=null, signature=null, description=null, realName=null, sex=0, address=null, lng=null, lat=null, status=null, version=1)
+[2022-12-08 16:42:507] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 7331 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 16:42:512] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 16:44:796] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 103.116 seconds (JVM running for 104.648)
+[2022-12-08 16:44:418] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:43] - user2:SysUser(id=1, uuid=1, username=code-fusheng, password=$2a$10$pwUFaYUOBy61xI/iBN5HM.AEwnqWKwOJvV3RfuCoGhzHCmqo6cC16, avatar=null, mobile=null, mail=null, signature=null, description=null, realName=null, sex=0, address=null, lng=null, lat=null, status=null, version=1)
+[2022-12-08 17:01:922] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 7923 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 17:01:926] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 17:01:257] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.889 seconds (JVM running for 8.063)
+[2022-12-08 17:02:655] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 7970 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 17:02:658] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 17:02:292] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.136 seconds (JVM running for 7.108)
+[2022-12-08 17:02:865] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:66] - model:BaseEntity(remark=null, memo=null, isEnabled=null, isDeleted=null, creatorId=null, updaterId=null, creatorName=null, updaterName=null, createdAt=null, updatedAt=null)
+[2022-12-08 17:02:908] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 8004 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 17:02:912] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 17:03:592] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.201 seconds (JVM running for 7.163)
+[2022-12-08 17:03:618] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:66] - model:Model(id=1598222285510352898, modelName=null)
+[2022-12-08 19:46:273] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 12593 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 19:46:277] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 19:48:304] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 12650 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 19:48:307] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 19:48:575] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.793 seconds (JVM running for 9.036)
+[2022-12-08 19:49:923] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 12708 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 19:49:928] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 19:49:688] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 8.296 seconds (JVM running for 9.367)
+[2022-12-08 19:49:253] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:66] - model:Model(id=1598222285510352898, modelName=null)
+[2022-12-08 20:10:102] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 13378 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:10:106] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:10:649] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.317 seconds (JVM running for 8.49)
+[2022-12-08 20:10:500] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:77] - modelResult:null
+[2022-12-08 20:11:107] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 13414 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:11:111] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:11:590] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.119 seconds (JVM running for 8.572)
+[2022-12-08 20:11:393] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:77] - modelResult:Model(id=1598222285510352898, modelName=null)
+[2022-12-08 20:26:203] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 13823 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:26:207] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:26:407] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.867 seconds (JVM running for 8.349)
+[2022-12-08 20:26:077] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:66] - model:Model(id=1598222285510352898, modelName=null)
+[2022-12-08 20:27:838] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 13866 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:27:841] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:27:607] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.282 seconds (JVM running for 7.2)
+[2022-12-08 20:27:241] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:66] - model:Model(id=1598222285510352898, modelName=null)
+[2022-12-08 20:28:862] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 13915 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:28:864] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:29:274] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.13 seconds (JVM running for 7.084)
+[2022-12-08 20:29:042] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:66] - model:Model(id=1598222285510352898, modelName=null)
+[2022-12-08 20:29:059] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 13951 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:29:062] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:29:533] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.01 seconds (JVM running for 7.15)
+[2022-12-08 20:29:024] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:77] - modelResult:Model(id=1598222285510352898, modelName=test)
+[2022-12-08 20:33:251] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 14082 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:33:254] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:33:782] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.052 seconds (JVM running for 8.06)
+[2022-12-08 20:34:020] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 14113 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:34:022] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:34:549] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.224 seconds (JVM running for 7.281)
+[2022-12-08 20:37:133] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 14216 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:37:136] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:37:559] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.077 seconds (JVM running for 7.014)
+[2022-12-08 20:37:562] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 14243 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:37:565] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:38:607] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 14268 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:38:610] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:38:148] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.1 seconds (JVM running for 7.076)
+[2022-12-08 20:40:586] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 14354 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:40:589] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:40:675] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.636 seconds (JVM running for 7.767)
+[2022-12-08 20:41:867] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 14411 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:41:871] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:42:496] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.135 seconds (JVM running for 7.163)
+[2022-12-08 20:42:810] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 14437 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:42:814] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:42:533] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.187 seconds (JVM running for 7.111)
+[2022-12-08 20:43:797] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 14488 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:43:801] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:43:345] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.059 seconds (JVM running for 6.979)
+[2022-12-08 20:47:717] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 14611 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-08 20:47:721] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-08 20:47:135] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.047 seconds (JVM running for 8.608)
+[2022-12-08 20:47:329] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:77] - modelResult:Model(id=1598222285510352898, modelName=test)
+[2022-12-09 16:05:525] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 25163 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-09 16:05:532] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-09 23:09:767] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:55] - Starting MysqlTest on 192.168.2.220 with PID 33437 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-09 23:09:771] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-09 23:09:135] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:61] - Started MysqlTest in 7.957 seconds (JVM running for 9.241)
+[2022-12-09 23:10:759] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:55] - Starting MysqlTest on 192.168.2.220 with PID 33513 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-09 23:10:763] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-09 23:11:592] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:61] - Started MysqlTest in 6.392 seconds (JVM running for 7.408)
+[2022-12-09 23:11:911] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:55] - Starting MysqlTest on 192.168.2.220 with PID 33550 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-09 23:11:916] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-09 23:12:524] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:61] - Started MysqlTest in 7.32 seconds (JVM running for 8.51)
+[2022-12-09 23:12:282] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:55] - Starting MysqlTest on 192.168.2.220 with PID 33570 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-09 23:12:285] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-09 23:12:429] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:61] - Started MysqlTest in 6.669 seconds (JVM running for 7.676)
+[2022-12-09 23:12:935] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:36] - id:1598134730123902977 - modelName:haha
+[2022-12-09 23:29:038] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:55] - Starting MysqlTest on 192.168.2.220 with PID 34057 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-09 23:29:044] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-09 23:29:914] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:61] - Started MysqlTest in 7.434 seconds (JVM running for 8.675)
+[2022-12-09 23:31:121] [main] [INFO ] [x.f.c.s.m.tools.orm.mysql.ConnectionTest:55] - Starting ConnectionTest on 192.168.2.220 with PID 34167 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-09 23:31:126] [main] [INFO ] [x.f.c.s.m.tools.orm.mysql.ConnectionTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-09 23:32:408] [main] [INFO ] [x.f.c.s.m.tools.orm.mysql.ConnectionTest:61] - Started ConnectionTest in 40.011 seconds (JVM running for 41.306)
+[2022-12-09 23:32:271] [main] [INFO ] [x.f.c.s.m.tools.orm.mysql.ConnectionTest:76] - resultSet:com.mysql.cj.jdbc.result.ResultSetImpl@7891742e
+[2022-12-09 23:33:928] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:55] - Starting MysqlTest on 192.168.2.220 with PID 34241 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-09 23:33:933] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-09 23:33:741] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:61] - Started MysqlTest in 6.365 seconds (JVM running for 7.36)
+[2022-12-09 23:38:249] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:55] - Starting MysqlTest on 192.168.2.220 with PID 34370 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-09 23:38:254] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-09 23:38:047] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:61] - Started MysqlTest in 7.429 seconds (JVM running for 8.555)
+[2022-12-09 23:38:809] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:66] - id:1598222285510352898 - modelName:test
+[2022-12-10 00:32:778] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.2.220 with PID 36088 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-10 00:32:784] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-10 00:32:984] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 8.901 seconds (JVM running for 10.396)
+[2022-12-10 00:34:058] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.2.220 with PID 36172 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-10 00:34:062] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-10 00:34:757] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.245 seconds (JVM running for 7.32)
+[2022-12-10 00:34:436] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:66] - model:Model(id=1598222285510352898, modelName=test)
+[2022-12-10 16:15:443] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:55] - Starting MysqlTest on 192.168.0.101 with PID 38754 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-10 16:15:448] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-10 16:15:237] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:61] - Started MysqlTest in 7.416 seconds (JVM running for 8.68)
+[2022-12-10 16:15:662] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:57] - result:[{IS_DELETED=false, UPDATER_NAME=null, MODEL_NAME=test, CREATED_AT=null, UPDATER_ID=null, IS_ENABLED=true, CREATOR_NAME=null, UPDATED_AT=null, ID=1598222285510352898, REMARK=null, MEMO=null, CREATOR_ID=null}]
+[2022-12-10 16:26:284] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:55] - Starting MysqlTest on 192.168.0.101 with PID 39116 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-10 16:26:288] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-10 16:26:860] [main] [INFO ] [x.f.c.s.model.tools.orm.mysql.MysqlTest:61] - Started MysqlTest in 7.209 seconds (JVM running for 8.239)
+[2022-12-10 21:39:551] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.0.101 with PID 40841 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-10 21:39:556] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-10 21:39:099] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 8.27 seconds (JVM running for 9.665)
+[2022-12-10 21:40:169] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:77] - modelResult:Model(id=1598222285510352898, modelName=test)
+[2022-12-11 10:22:548] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.0.101 with PID 47553 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 10:22:554] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 10:23:665] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.7 seconds (JVM running for 8.796)
+[2022-12-11 10:23:170] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222285510352898, modelName=test)
+[2022-12-11 10:23:171] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222396156092417, modelName=test1)
+[2022-12-11 10:23:171] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222409531727874, modelName=test2)
+[2022-12-11 10:23:172] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222424123711490, modelName=test3)
+[2022-12-11 10:23:173] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222439147708417, modelName=test4)
+[2022-12-11 10:23:173] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222456105279489, modelName=test5)
+[2022-12-11 10:23:173] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222470927949825, modelName=test6)
+[2022-12-11 10:23:174] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598229684828827649, modelName=test6-X)
+[2022-12-11 10:31:611] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.0.101 with PID 47795 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 10:31:615] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 10:31:126] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.2 seconds (JVM running for 8.444)
+[2022-12-11 10:34:629] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222285510352898, modelName=test)
+[2022-12-11 10:34:257] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222396156092417, modelName=test1)
+[2022-12-11 10:34:799] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222409531727874, modelName=test2)
+[2022-12-11 10:34:353] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222424123711490, modelName=test3)
+[2022-12-11 10:34:873] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222439147708417, modelName=test4)
+[2022-12-11 10:34:403] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222456105279489, modelName=test5)
+[2022-12-11 10:34:931] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598222470927949825, modelName=test6)
+[2022-12-11 10:34:418] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:95] - model:Model(id=1598229684828827649, modelName=test6-X)
+[2022-12-11 12:16:208] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.0.101 with PID 49170 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 12:16:214] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 12:17:281] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.0.101 with PID 49219 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 12:17:287] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 12:17:170] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.427 seconds (JVM running for 7.404)
+[2022-12-11 12:21:532] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.0.101 with PID 49331 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 12:21:536] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 12:21:801] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.879 seconds (JVM running for 8.24)
+[2022-12-11 12:23:040] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.0.101 with PID 49422 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 12:23:045] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 12:23:744] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.259 seconds (JVM running for 7.331)
+[2022-12-11 12:26:169] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.0.101 with PID 49511 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 12:26:173] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 12:26:903] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.282 seconds (JVM running for 8.307)
+[2022-12-11 12:28:611] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on 192.168.0.101 with PID 49563 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 12:28:618] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 12:28:330] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.358 seconds (JVM running for 8.358)
+[2022-12-11 12:28:689] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:105] - model1:Model(id=4, modelName=testId-Generator)
+[2022-12-11 12:29:238] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:55] - Starting ModelApplication on 192.168.0.101 with PID 49614 (/Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model/target/classes started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 12:29:240] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 12:30:346] [main] [INFO ] [x.f.c.springboot.model.ModelApplication:61] - Started ModelApplication in 4.6 seconds (JVM running for 5.181)
+[2022-12-11 14:22:266] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 50917 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 14:22:269] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 14:22:142] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.55 seconds (JVM running for 7.66)
+[2022-12-11 14:23:357] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 50961 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 14:23:362] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 14:23:149] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.344 seconds (JVM running for 7.3)
+[2022-12-11 14:23:269] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 50982 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 14:23:273] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 14:24:117] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.435 seconds (JVM running for 7.428)
+[2022-12-11 14:24:413] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:114] - modelList:[Model(id=5, modelName=test)]
+[2022-12-11 14:36:695] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 51387 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 14:36:700] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 14:36:333] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.356 seconds (JVM running for 8.681)
+[2022-12-11 14:37:973] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:122] - modelList:[Model(id=5, modelName=test)]
+[2022-12-11 15:10:496] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 52263 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 15:10:502] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 15:11:521] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.718 seconds (JVM running for 9.034)
+[2022-12-11 15:12:309] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:98] - model:Model(id=5, modelName=test)
+[2022-12-11 15:32:453] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 52838 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 15:32:458] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 15:32:444] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.851 seconds (JVM running for 9.167)
+[2022-12-11 15:32:151] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:98] - model:Model(id=5, modelName=test)
+[2022-12-11 16:26:139] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 54955 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 16:26:144] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 16:26:978] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 7.628 seconds (JVM running for 8.955)
+[2022-12-11 16:27:229] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 54992 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 16:27:232] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 16:27:457] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 8.356 seconds (JVM running for 10.58)
+[2022-12-11 16:27:628] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:139] - models:[Model(id=2, modelName=fusheng), Model(id=3, modelName=xiaomi), Model(id=4, modelName=haha), Model(id=5, modelName=test)]
+[2022-12-11 16:30:369] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 55116 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 16:30:372] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 16:30:246] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.516 seconds (JVM running for 7.645)
+[2022-12-11 16:30:526] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:139] - models:[[Model(id=2, modelName=fusheng), Model(id=3, modelName=xiaomi), Model(id=4, modelName=haha), Model(id=5, modelName=test)], [ModelVo(extendStr=null, modelList=null)]]
+[2022-12-11 16:30:769] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 55133 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 16:30:773] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 16:30:328] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 8.159 seconds (JVM running for 9.725)
+[2022-12-11 16:31:735] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:139] - models:[[Model(id=2, modelName=fusheng), Model(id=3, modelName=xiaomi), Model(id=4, modelName=haha), Model(id=5, modelName=test)], [ModelVo(extendStr=null, modelList=null)]]
+[2022-12-11 16:32:502] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 55197 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 16:32:505] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 16:32:118] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 6.165 seconds (JVM running for 7.172)
+[2022-12-11 16:32:343] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:139] - models:[[Model(id=2, modelName=fusheng), Model(id=3, modelName=xiaomi), Model(id=4, modelName=haha), Model(id=5, modelName=test)], [ModelVo(extendStr=null, modelList=null)]]
+[2022-12-11 16:58:560] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:55] - Starting MybatisTest on zhanghaodeMacBook-Pro.local with PID 55850 (started by fusheng in /Users/fusheng/WorkSpace/CompanyWork/work-fusheng/core-pro/code-springboot-model)
+[2022-12-11 16:58:564] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:651] - No active profile set, falling back to default profiles: default
+[2022-12-11 16:58:183] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:61] - Started MybatisTest in 8.269 seconds (JVM running for 9.947)
+[2022-12-12 11:21:567] [main] [INFO ] [x.f.c.s.m.tools.orm.mybatis.MybatisTest:139] - models:[[Model(id=2, modelName=fusheng), Model(id=3, modelName=xiaomi), Model(id=4, modelName=haha), Model(id=5, modelName=test)], [ModelVo(extendStr=null, modelList=null)]]

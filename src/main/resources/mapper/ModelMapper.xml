@@ -2,8 +2,19 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="xyz.fusheng.code.springboot.model.core.mapper.ModelMapper">
 
+    <!-- 配置缓存 -->
+    <cache type="PERPETUAL"
+           eviction="FIFO"
+           flushInterval="60000"
+           size="512"
+           readOnly="true"
+           blocking="true">
+            <!--<property name="" value=""/>-->
+            <!-- property 直接修改 Cache 实现类以及装饰类的属性 -->
+    </cache>
+
     <!-- 命名空间缓存共享 -->
-    <!--<cache-ref namespace=""/>-->
+    <cache-ref namespace="xyz.fusheng.code.springboot.model.core.mapper.ModelMapper"/>
 
     <!-- resultMap 支持继承 -->
     <!-- resultMap 继承关系的解析又 ResultMapResolver 类来完成 -->
@@ -30,9 +41,25 @@
         <parameter property="modelName" javaType="String" />
     </parameterMap>
 
-    <select id="selectModelByModelName" resultType="xyz.fusheng.code.springboot.model.model.entity.Model">
-        select * from code_model where 1 = 1 <include refid="byModelName" />
+    <!--
+        flushCache: true 清空一二级缓存 默认(false)
+        开启二级缓存后 SELECT useCache 默认(true)
+    -->
+    <select id="selectModelByModelName"
+            resultType="xyz.fusheng.code.springboot.model.model.entity.Model"
+            flushCache="true"
+            useCache="true">
+        select id, model_name from code_model where 1 = 1 <include refid="byModelName" />
     </select>
+
+    <!-- 启动主键生成 useGeneratedKeys="true" -->
+    <insert id="insertModel" parameterType="xyz.fusheng.code.springboot.model.model.entity.Model" useGeneratedKeys="true" keyProperty="id">
+        <selectKey resultType="java.lang.Long"
+            keyProperty="id" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into code_model (model_name) values (#{modelName})
+    </insert>
 
     <select id="customPage" resultType="xyz.fusheng.code.springboot.model.model.entity.Model">
         select * from code_model
@@ -49,6 +76,27 @@
                 or model_name = #{modelName}
             </if>
         </where>
+    </select>
+    <select id="selectModelsRegexpName" resultType="xyz.fusheng.code.springboot.model.model.entity.Model">
+        select id, model_name from code_model where model_name regexp #{param1}
+    </select>
+
+    <select id="runCall" resultType="xyz.fusheng.code.springboot.model.model.entity.Model" statementType="CALLABLE">
+        CALL query_model(#{modelName,mode=IN,jdbcType=VARCHAR})
+    </select>
+
+    <resultMap id="result1" type="xyz.fusheng.code.springboot.model.model.entity.Model">
+        <result property="id" column="id" />
+        <result property="modelName" column="model_name" />
+    </resultMap>
+
+    <resultMap id="result2" type="xyz.fusheng.code.springboot.model.model.vo.ModelVo">
+        <collection property="modelList" resultSet="modelRecord" resultMap="result1" />
+    </resultMap>
+
+    <!-- 支持结果集合并 -->
+    <select id="testMultiResults" resultMap="result1, result2" resultSets="modelRecord, modelVoRecord" statementType="CALLABLE">
+        CALL learn_multi_results()
     </select>
 
 </mapper>

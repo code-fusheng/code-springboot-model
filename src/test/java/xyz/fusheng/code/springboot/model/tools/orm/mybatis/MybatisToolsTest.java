@@ -1,6 +1,7 @@
 package xyz.fusheng.code.springboot.model.tools.orm.mybatis;
 
 import org.apache.ibatis.builder.ParameterExpression;
+import org.apache.ibatis.jdbc.SQL;
 import org.apache.ibatis.reflection.TypeParameterResolver;
 
 import java.lang.reflect.Type;
@@ -26,9 +27,19 @@ public class MybatisToolsTest {
         System.out.println(expression);
     }
 
+    public static void testSQLClass() {
+        String sql = new SQL()
+                .SELECT("*")
+                .FROM("code_model")
+                .WHERE("model_name #{modelName}")
+                .toString();
+        System.out.println(sql);
+    }
+
     public static void main(String[] args) throws NoSuchMethodException {
         // testTypeParameterResolver();
-        testParameterExpression();
+        // testParameterExpression();
+        testSQLClass();
     }
 
 }
