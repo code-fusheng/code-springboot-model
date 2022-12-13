@@ -1,7 +1,7 @@
 package xyz.fusheng.code.springboot.model.core.service;
 
-import xyz.fusheng.code.springboot.model.model.entity.Model;
 import com.baomidou.mybatisplus.extension.service.IService;
+import xyz.fusheng.code.springboot.model.model.entity.Model;
 
 /**
  * <p>
@@ -11,6 +11,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author code-fusheng
  * @since 2022-11-29
  */
+
 public interface IModelService extends IService<Model> {
 
 }

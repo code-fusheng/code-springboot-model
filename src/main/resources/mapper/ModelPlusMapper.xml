@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="xyz.fusheng.code.springboot.model.core.mapper.ModelPlusMapper">
+
+    <resultMap id="modelPlusVo" type="xyz.fusheng.code.springboot.model.model.vo.ModelPlusVo">
+        <id property="id" column="id" jdbcType="BIGINT" javaType="java.lang.Long" />
+        <result property="modelPlusName" column="model_plus_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+        <!-- 可以使用 JacksonTypeHandler 代替 -->
+         <result property="modelPlusTags" column="model_plus_tags" typeHandler="xyz.fusheng.code.springboot.core.plugin.mybatis.handler.ObjectAndJsonTypeHandler" />
+        <result property="strList" column="strList" typeHandler="com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler" />
+    </resultMap>
+
+    <select id="infoVo" resultMap="modelPlusVo">
+        select cmp.id, cmp.model_plus_name, cmp.model_plus_tags, cmp.model_plus_tags as strList from code_model_plus cmp where id = 1
+    </select>
+
+    <select id="pageVo" resultType="xyz.fusheng.code.springboot.model.model.vo.ModelPlusVo">
+        select * from code_model_plus where is_deleted = 0 order by created_at desc
+    </select>
+
+</mapper>

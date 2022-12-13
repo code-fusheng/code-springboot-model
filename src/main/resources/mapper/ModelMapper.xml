@@ -99,4 +99,8 @@
         CALL learn_multi_results()
     </select>
 
+    <select id="selectVoById" resultType="xyz.fusheng.code.springboot.model.model.vo.ModelVo">
+        select * from code_model where id = #{id}
+    </select>
+
 </mapper>

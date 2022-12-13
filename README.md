@@ -38,4 +38,5 @@ file : 配置管理 --- 新增 K8S 工程项目部署配置文件以及脚本
 feature : 设计模式 --- 新增 Singleton、Adapter、Proxy、Builder 三类设计模式简单 Demo
 learn : 源码学习 --- 学习 connection prepareCall() 调用 mysql 存储过程案例
 feature : 设计模式 --- 新增 Responsibility Chain 责任链 设计模式简单 Demo
+feature : 架构设计 --- 新增 MybatisPlus 通用(JSON - OBJECT)类型处理器，新增 Mybatis Plus 参数填充
 ```

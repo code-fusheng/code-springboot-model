@@ -8,6 +8,7 @@ import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.cursor.Cursor;
 import xyz.fusheng.code.springboot.model.model.dto.ModelPageDto;
 import xyz.fusheng.code.springboot.model.model.entity.Model;
+import xyz.fusheng.code.springboot.model.model.vo.ModelVo;
 
 import java.util.List;
 
@@ -25,7 +26,7 @@ public interface ModelMapper extends BaseMapper<Model> {
     Model selectModelByModelName(@Param("modelName") String modelName);
     Page<Model> customPage(@Param("page") IPage<Model> page, @Param("pageDto") ModelPageDto pageDto);
 
-    Model selectModelByIdOrModelName(Model model);
+    List<Model> selectModelByIdOrModelName(Model model);
 
     Cursor<Model> selectModelsRegexpName(@Param("keyword") String keyword);
 
@@ -34,4 +35,7 @@ public interface ModelMapper extends BaseMapper<Model> {
     List<Model> runCall(@Param("modelName") String modelName);
 
     List<Model> testMultiResults();
+
+    ModelVo selectVoById(@Param("id") String id);
+
 }

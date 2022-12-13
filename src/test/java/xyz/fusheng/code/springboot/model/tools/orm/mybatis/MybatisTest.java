@@ -77,8 +77,8 @@ public class MybatisTest {
         model.setModelName("test");
 
         ModelMapper modelMapper = session.getMapper(ModelMapper.class);
-        Model modelResult = modelMapper.selectModelByIdOrModelName(model);
-        log.info("modelResult:{}", modelResult);
+        List<Model> models = modelMapper.selectModelByIdOrModelName(model);
+        log.info("models:{}", models);
     }
 
     @Test

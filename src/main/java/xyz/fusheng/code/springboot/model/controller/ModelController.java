@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.toolkit.SqlHelper;
 import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
@@ -79,6 +78,12 @@ public class ModelController {
     @ApiOperation(value = "更新")
     public Boolean update(@RequestBody Model model) {
         return SqlHelper.retBool(modelMapper.updateById(model));
+    }
+
+    @GetMapping("/infoVo/{id}")
+    public ModelVo infoVo(@PathVariable("id") String id) {
+        ModelVo modelVo = modelMapper.selectVoById(id);
+        return modelVo;
     }
 
 }

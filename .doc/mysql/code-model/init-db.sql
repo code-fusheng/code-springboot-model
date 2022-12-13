@@ -99,3 +99,39 @@ CREATE TABLE `sys_role_menu_ref` (
                                      PRIMARY KEY (`role_id`,`menu_id`),
                                      UNIQUE KEY `idx_role_menu` (`role_id`,`menu_id`) COMMENT '联合主键索引'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='角色与权限关系表';
+
+DROP TABLE IF EXISTS `code_model`;
+CREATE TABLE `code_model` (
+                              `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键',
+                              `model_name` varchar(255) DEFAULT NULL COMMENT '模版名称',
+                              `remark` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '备注',
+                              `memo` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '拓展',
+                              `is_enabled` tinyint(1) DEFAULT '1' COMMENT '是否启用(1:已启用/0:未启用)',
+                              `is_deleted` tinyint(1) DEFAULT '0' COMMENT '是否逻辑删除(1:已删除/0:未删除)',
+                              `creator_id` bigint DEFAULT NULL COMMENT '创建者编号',
+                              `updater_id` bigint DEFAULT NULL COMMENT '修改者编号',
+                              `creator_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '创建者姓名',
+                              `updater_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '修改者姓名',
+                              `created_at` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+                              `updated_at` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
+                              PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+DROP TABLE IF EXISTS `code_model_plus`;
+CREATE TABLE `code_model_plus` (
+                                   `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键',
+                                   `model_plus_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+                                   `model_plus_image` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+                                   `model_plus_tags` varchar(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+                                   `remark` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '备注',
+                                   `memo` mediumtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci COMMENT '拓展',
+                                   `is_enabled` tinyint(1) DEFAULT '1' COMMENT '是否启用(1:已启用/0:未启用)',
+                                   `is_deleted` tinyint(1) DEFAULT '0' COMMENT '是否逻辑删除(1:已删除/0:未删除)',
+                                   `creator_id` bigint DEFAULT NULL COMMENT '创建者编号',
+                                   `updater_id` bigint DEFAULT NULL COMMENT '修改者编号',
+                                   `creator_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '创建者姓名',
+                                   `updater_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT '修改者姓名',
+                                   `created_at` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+                                   `updated_at` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
+                                   PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

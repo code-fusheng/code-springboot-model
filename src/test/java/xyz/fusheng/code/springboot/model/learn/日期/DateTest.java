@@ -47,6 +47,8 @@ import java.util.concurrent.TimeUnit;
  * 总结: 使用 Java8 的日期时间类 ———— 使用 {@link ZonedDateTime} 保存时间，然后使用设置了 {@link ZoneId} 的 {@link DateTimeFormatter} 配合 ZonedDateTime
  * 进行时间格式化得到本地时间表示。
  * 3. 没有特殊需求，针对年份的日期格式化，应该一律使用 “y” 而非 “Y”。
+ *
+ * http://c.biancheng.net/view/878.html
  */
 
 public class DateTest {
@@ -368,6 +370,11 @@ public class DateTest {
                 logger.info("{}", between2 + between1);
             }
         }
+    }
+
+    public static void testTimeFormat() {
+        String str = "2022-11-11 10:00:00";
+
     }
 
     public static void main(String[] args) throws ParseException, InterruptedException {
