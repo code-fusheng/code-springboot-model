@@ -1,6 +1,11 @@
 package xyz.fusheng.code.springboot.model.controller;
 
+import io.lettuce.core.ScriptOutputType;
 import io.swagger.annotations.Api;
+import org.redisson.api.RLock;
+import org.redisson.api.RedissonClient;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -61,6 +66,32 @@ public class TestController {
     @PostMapping("/exp2")
     public void exp2() {
         throw new RuntimeException("测试");
+    }
+
+    @Autowired
+    private RedissonClient redisson;
+
+    @GetMapping("/lock")
+    public void lock() {
+        System.out.println("test lock-1 start ==> 线程ID:" + Thread.currentThread().getName());
+        // 1. 获取锁，只要锁名字一样，获取到的就是同一把锁
+        System.out.println("尝试获取锁 ==> 线程ID:" + Thread.currentThread().getName());
+        RLock lock = redisson.getLock("test-lock-1");
+        System.out.println("获取锁成功 ==> 线程ID:" + Thread.currentThread().getName());
+        // 2. 加锁
+        // lock.lock(8, TimeUnit.SECONDS);  自动释放锁时间不能低于业务执行时间 - 会报错
+        lock.lock();
+        try {
+            System.out.println("加锁成功 ==> 线程ID:" + Thread.currentThread().getName());
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        } finally {
+            // 3. 解锁
+            lock.unlock();
+            System.out.println("释放锁成功 ==> 线程ID:" + Thread.currentThread().getName());
+        }
+        System.out.println("test lock-1 end ==> 线程ID:" + Thread.currentThread().getName());
     }
     
 }

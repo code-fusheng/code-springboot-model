@@ -5,8 +5,8 @@
 
     <parent>
         <groupId>xyz.fusheng.core</groupId>
-        <artifactId>code-springboot</artifactId>
-        <version>1.0</version>
+        <artifactId>code-dependencies</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath/>
     </parent>
 
@@ -20,7 +20,6 @@
         <java.version>1.8</java.version>
         <ognl.version>3.3.3</ognl.version>
 
-
         <jedis.version>2.9.0</jedis.version>
         <!-- office 相关 -->
         <poi-tl.version>1.12.0</poi-tl.version>
@@ -28,6 +27,8 @@
         <!-- tools -->
         <jjwt.version>0.9.0</jjwt.version>
         <guava.version>31.1-jre</guava.version>
+
+        <nacos-starter.version>0.2.7</nacos-starter.version>
     </properties>
 
     <dependencies>
@@ -36,6 +37,7 @@
             <artifactId>code-springboot-core</artifactId>
             <version>1.0.0</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -90,7 +92,49 @@
             <version>${guava.version}</version>
         </dependency>
 
+        <!--redisson-->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>nacos-config-spring-boot-starter</artifactId>
+            <version>${nacos-starter.version}</version>
+        </dependency>
+
     </dependencies>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <profiles.active>dev</profiles.active>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <profiles.active>test</profiles.active>
+            </properties>
+        </profile>
+        <profile>
+            <id>stage</id>
+            <properties>
+                <profiles.active>stage</profiles.active>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <profiles.active>prod</profiles.active>
+            </properties>
+        </profile>
+    </profiles>
 
     <build>
         <plugins>

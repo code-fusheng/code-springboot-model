@@ -1,6 +1,5 @@
 package xyz.fusheng.code.springboot.model.learn.集合;
 
-import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.junit.Assert;
@@ -140,11 +139,11 @@ public class CollectionErrorTest {
         stopWatch.start("listSearch");
         Object list = testListSearch(elementCount, loopCount);
         stopWatch.stop();
-        logger.info("[list] => size:{}", ObjectSizeCalculator.getObjectSize(list));
+        // logger.info("[list] => size:{}", ObjectSizeCalculator.getObjectSize(list));
         stopWatch.start("mapSearch");
         Object map = testMapSearch(elementCount, loopCount);
         stopWatch.stop();
-        logger.info("[map] => size:{}", ObjectSizeCalculator.getObjectSize(map));
+        // logger.info("[map] => size:{}", ObjectSizeCalculator.getObjectSize(map));
         System.out.println(stopWatch.prettyPrint());
     }
 
