@@ -39,4 +39,6 @@ feature : 设计模式 --- 新增 Singleton、Adapter、Proxy、Builder 三类�
 learn : 源码学习 --- 学习 connection prepareCall() 调用 mysql 存储过程案例
 feature : 设计模式 --- 新增 Responsibility Chain 责任链 设计模式简单 Demo
 feature : 架构设计 --- 新增 MybatisPlus 通用(JSON - OBJECT)类型处理器，新增 Mybatis Plus 参数填充
+docs : 文档整理 --- 新增 K8S 部署 rabbitmq、nacos、nginx 等环境的编排文档
+design : 场景设计 --- 新增 支付渠道&文章过滤场景设计模型
 ```
