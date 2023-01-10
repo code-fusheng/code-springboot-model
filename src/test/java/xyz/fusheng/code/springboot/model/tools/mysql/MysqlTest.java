@@ -1,4 +1,4 @@
-package xyz.fusheng.code.springboot.model.tools.orm.mysql;
+package xyz.fusheng.code.springboot.model.tools.mysql;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.jdbc.ScriptRunner;

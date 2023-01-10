@@ -1,4 +1,4 @@
-package xyz.fusheng.code.springboot.model.tools.orm.mybatis;
+package xyz.fusheng.code.springboot.model.tools.mybatis;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.cursor.Cursor;
@@ -10,6 +10,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.transaction.annotation.Transactional;
 import xyz.fusheng.code.springboot.model.core.mapper.ModelMapper;
 import xyz.fusheng.code.springboot.model.core.mapper.SysUserMapper;
 import xyz.fusheng.code.springboot.model.model.entity.Model;
@@ -137,6 +138,12 @@ public class MybatisTest {
         ModelMapper modelMapper = session.getMapper(ModelMapper.class);
         List<Model> models = modelMapper.testMultiResults();
         log.info("models:{}", models);
+    }
+
+    @Test
+    @Transactional(rollbackFor = Exception.class)
+    public void testTransaction() {
+
     }
 
 }

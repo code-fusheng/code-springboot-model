@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- https://docs.spring.io/spring-framework/docs/5.0.8.RELEASE/spring-framework-reference/core.html#spring-core -->
+
+    <bean id="testBean" class="xyz.fusheng.code.springboot.model.plugin.spring.bean.TestBean">
+        <!-- Qualifier 允许指定注入 Bean 的名称 -->
+        <qualifier type="org.springframework.beans.factory.annotation.Qualifier" value="myTestBean" />
+    </bean>
+    <alias name="testBean" alias="testBeanAlias" />
+
+    <bean id="testBeanV2" class="xyz.fusheng.code.springboot.model.plugin.spring.bean.TestBeanV2" />
+
+    <bean id="testBeanV3" class="xyz.fusheng.code.springboot.model.plugin.spring.bean.TestBeanV3" />
+
+</beans>

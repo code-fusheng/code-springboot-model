@@ -1,4 +1,4 @@
-package xyz.fusheng.code.springboot.model.tools.orm.mybatis;
+package xyz.fusheng.code.springboot.model.tools.mybatis;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.executor.resultset.ResultSetHandler;

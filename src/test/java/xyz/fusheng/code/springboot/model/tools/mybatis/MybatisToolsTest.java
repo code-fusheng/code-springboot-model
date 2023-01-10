@@ -1,4 +1,4 @@
-package xyz.fusheng.code.springboot.model.tools.orm.mybatis;
+package xyz.fusheng.code.springboot.model.tools.mybatis;
 
 import org.apache.ibatis.builder.ParameterExpression;
 import org.apache.ibatis.jdbc.SQL;

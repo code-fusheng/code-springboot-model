@@ -17,5 +17,9 @@ public class TestBean {
     public void setTestStr(String testStr) {
         this.testStr = testStr;
     }
+
+    public void say() {
+        System.out.println("hello");
+    }
 }
 

@@ -15,8 +15,6 @@ import java.util.Set;
 
 public class HashMapTest {
 
-
-
     public static void main(String[] args) {
 
         Map<String, Object> params = new HashMap<>(16);

@@ -15,10 +15,4 @@
         <property name="basePackage" value="xyz.fusheng.code.springboot.model.core.mapper" />
     </bean>
 
-    <bean id="testBean" class="xyz.fusheng.code.springboot.model.plugin.spring.bean.TestBean">
-        <!-- Qualifier 允许指定注入 Bean 的名称 -->
-        <qualifier type="org.springframework.beans.factory.annotation.Qualifier" value="myTestBean" />
-    </bean>
-    <alias name="testBean" alias="testBeanAlias" />
-
 </beans>
