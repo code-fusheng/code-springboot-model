@@ -301,6 +301,10 @@ public class FileIOErrorTest {
         // testBufferRight1();
         //testBufferRight2();
         //testFileChannel_transferTo();
+        Path path = Paths.get("/Users/fusheng/WorkSpace/DataWork/htc-image-test");
+        if (!Files.exists(path)) {
+            Path directory = Files.createDirectory(path);
+        }
     }
 
 }

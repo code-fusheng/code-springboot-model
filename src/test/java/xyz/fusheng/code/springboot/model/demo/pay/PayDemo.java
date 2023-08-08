@@ -1,7 +1,5 @@
 package xyz.fusheng.code.springboot.model.demo.pay;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -14,7 +12,7 @@ import javax.annotation.Resource;
  */
 
 @SpringBootTest
-@RunWith(SpringRunner.class)
+// @RunWith(SpringRunner.class)
 public class PayDemo {
 
     @Resource
@@ -25,7 +23,7 @@ public class PayDemo {
         payHandler.dealPay();
     }
 
-    @Test
+    // @Test
     public void testPay() {
         dealPay(PayChannelEnum.WECHAT_PAY.getCode());
     }

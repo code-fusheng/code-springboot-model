@@ -292,6 +292,10 @@ public class DateTest {
         LocalDateTime time = LocalDateTime.now().with(temporal -> temporal.plus(ThreadLocalRandom.current().nextInt(100), ChronoUnit.DAYS));
         logger.info("[函数调试-随机增加100以内天数] => result:{}", time);
 
+        LocalDateTime now = LocalDateTime.now();
+        LocalDateTime monday = now.with(TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY));
+        logger.info("[当周第一天 => monday:{}]", monday);
+
     }
 
     /**
@@ -392,11 +396,11 @@ public class DateTest {
         // 日期时间的计算调试
         //testDateCalculate();
 
-        //testLocalDate_temporalAdjusters();
+        testLocalDate_temporalAdjusters();
         //testLocalDate_temporalAccessor();
 //        testLocalDate_dayBetween();
 
-        testDateline();
+        // testDateline();
 
         //testFormat();
     }

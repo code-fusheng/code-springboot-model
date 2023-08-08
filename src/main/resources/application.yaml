@@ -1,37 +1,37 @@
-#server:
-#  port: 8080
+server:
+  port: 10240
 spring:
   application:
     name: @artifactId@
   profiles:
     active: @profiles.active@
-#  datasource:
-#    url: jdbc:mysql://42.192.222.62:33307/code-springboot-model?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true
-#    username: root
-#    password: 123456
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-#  redis:
-#    host: 42.192.222.62
-#    port: 36380
-#    password: Xcode-redis?
-#    database: 0
-#  jackson:
-#    default-property-inclusion: non_null
-#  main:
-#    allow-bean-definition-overriding: true
-#mybatis-plus:
-##  mapper-locations: classpath:mapper/*.xml
-#  configuration:
-#    call-setters-on-nulls: true
-#  generator:
-#    enable: false
-#    parent: xyz.fusheng
-#    moduleName: code.springboot.model
-#jwt:
-#  secret: JWTSecret
-#  tokenHeader: Authorization
-#  tokenPrefix: Code-
-#  expiration: 86400
-#logging:
-#  level:
-#    com.alibaba.nacos.client.config.impl: WARN
+  datasource:
+    url: jdbc:mysql://localhost:3306/code-springboot-model?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: localhost
+    port: 6390
+    password: Xcode-redis?
+    database: 0
+  jackson:
+    default-property-inclusion: non_null
+  main:
+    allow-bean-definition-overriding: true
+mybatis-plus:
+#  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    call-setters-on-nulls: true
+  generator:
+    enable: false
+    parent: xyz.fusheng
+    moduleName: code.springboot.model
+jwt:
+  secret: JWTSecret
+  tokenHeader: Authorization
+  tokenPrefix: Code-
+  expiration: 86400
+logging:
+  level:
+    com.alibaba.nacos.client.config.impl: WARN

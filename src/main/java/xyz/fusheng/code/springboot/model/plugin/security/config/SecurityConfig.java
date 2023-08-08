@@ -104,11 +104,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 // 不进行权限验证的请求或资源(从配置文件中读取)
                 // .antMatchers(JwtConfig.antMatchers.split(",")).permitAll()
-                .antMatchers("/test/**", "/code/sms", "/**/login", "/github/login", "/login/github", "/authentication/mobile", "/push/websocket",
+                .antMatchers("/**/test/**", "/test/**", "/code/sms", "/**/login", "/github/login", "/login/github", "/authentication/mobile", "/push/websocket",
                         "/v2/api-docs", "/swagger-resources/configuration/ui",
                         "/swagger-resources", "/swagger-resources/configuration/security", "/swagger-ui.html", "/doc.html",
                         "/webjars/**", "/user/register", "/druid/login.html", "/druid/**",
-                        "/category/getList", "/article/getByPage", "/article/read/**", "article/getLastAndNextArticleVo/**", "/comment/getByPage").permitAll()
+                        "/category/getList", "/article/getByPage", "/article/read/**", "article/getLastAndNextArticleVo/**", "/comment/getByPage",
+                        "/debug/**").permitAll()
                 // 其他的需要登陆后才能访问
                 .anyRequest().authenticated()
                 .and()

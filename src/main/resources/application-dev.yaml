@@ -1,11 +1,11 @@
-nacos:
-  config:
-    server-addr: 42.192.222.62:38848
-    namespace: 1b3b3857-9fa0-4185-941d-24d8277be804
-    data-id: @artifactId@-@profiles.active@.yaml
-    group: @artifactId@
-    type: yaml
-    remote-first: true
-    bootstrap:
-      enable: true
-      log-enable: true
+#nacos:
+#  config:
+#    server-addr: 42.192.222.62:38848
+#    namespace: 1b3b3857-9fa0-4185-941d-24d8277be804
+#    data-id: @artifactId@-@profiles.active@.yaml
+#    group: @artifactId@
+#    type: yaml
+#    remote-first: true
+#    bootstrap:
+#      enable: true
+#      log-enable: true

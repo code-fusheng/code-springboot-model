@@ -1,5 +1,7 @@
 package xyz.fusheng.code.springboot.model.learn.高级;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.StopWatch;
 
 /**
@@ -11,6 +13,8 @@ import org.springframework.util.StopWatch;
  */
 
 public class StopWatchTest {
+
+    private static final Logger logger = LoggerFactory.getLogger(StopWatchTest.class);
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -24,6 +28,7 @@ public class StopWatchTest {
         stopWatch.stop();
 
         System.out.println(stopWatch.prettyPrint());
+        logger.info("耗时:{}", stopWatch.getTotalTimeMillis());
 
     }
 
