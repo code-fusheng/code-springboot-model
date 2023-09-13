@@ -1,7 +1,6 @@
 package xyz.fusheng.code.springboot.model.plugin.security.handler;
 
 import com.alibaba.fastjson.JSON;
-import lombok.Data;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;

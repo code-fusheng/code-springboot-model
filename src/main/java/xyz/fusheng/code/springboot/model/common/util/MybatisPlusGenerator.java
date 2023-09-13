@@ -28,8 +28,8 @@ import java.util.Map;
 
 import static com.baomidou.mybatisplus.generator.config.rules.DbColumnType.INTEGER;
 
-@Configuration
-@ConditionalOnProperty(prefix = "mybatis-plus.generator", name = "enable", havingValue = "true", matchIfMissing = true)
+// @Configuration
+// @ConditionalOnProperty(prefix = "mybatis-plus.generator", name = "enable", havingValue = "true", matchIfMissing = true)
 public class MybatisPlusGenerator {
 
     private static final Logger logger = LoggerFactory.getLogger(MybatisPlusGenerator.class);

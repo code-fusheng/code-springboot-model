@@ -11,4 +11,4 @@
 #      log-enable: true
 bocd:
   pay:
-    baseUrl: http://winxintest.bocd.com.cn/ifsp-payweb/SOA/
+    baseUrl: https://ebank.bocd.com.cn/ifsp-payweb/SOA/

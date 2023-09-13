@@ -7,7 +7,6 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import xyz.fusheng.code.springboot.core.enums.DeletedStatusEnum;
 import xyz.fusheng.code.springboot.core.enums.EnabledStatusEnum;
 
 import java.util.Collection;

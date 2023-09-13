@@ -11,10 +11,10 @@ spring:
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
-    host: localhost
-    port: 6390
+    host: 47.111.158.6
+    port: 16390
     password: Xcode-redis?
-    database: 0
+    database: 1
   jackson:
     default-property-inclusion: non_null
   main:
@@ -24,7 +24,7 @@ mybatis-plus:
   configuration:
     call-setters-on-nulls: true
   generator:
-    enable: false
+    enable: true
     parent: xyz.fusheng
     moduleName: code.springboot.model
 jwt:
@@ -35,3 +35,9 @@ jwt:
 logging:
   level:
     com.alibaba.nacos.client.config.impl: WARN
+bocd:
+  pay:
+    baseUrl: http://winxintest.bocd.com.cn/ifsp-payweb/SOA/
+    privateKey: MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAKQPLWVvvxJ7qO4slr1wimYdCsAGHC2nhG3cXJ9KZkqmmCq+1X5/XN19jD6KzOXI1eo46bsg2IL/2TchkwIDi2Ndh+hFdWkVfHfhNGf6IvagRe4wuM/T440TycO3bVR/8ui8fdQYqDmD2LrO8on04bvFHcQuPLTLWFtoygZ/nU8pAgMBAAECgYAUlQre9PwFt5nj95gZwCq80NvuZ1XVrHSCy+ia21yl9OyWQEbMjfH6n6uelQ9LrLyZm/ZG0cIX/T0lG4Mz93nfE/fYv0QzJkyAKTu10yN7deczbcQemFBP5ac9nQVYLuoSm5ckcEQYxTfRRHL7I5Rtl+L2dd36YEDMjvE2aKZW2QJBANhBO59tMLKxOyieOzPIqvk2G2TeMmgbRShqxGVVfyYWziauCNrCZa0zAm9wQ87Mbpi24OkDb0JaWLsWX1+jJQ8CQQDCNiZq+AQ/rvOPTegP+tBfjZJAoMDHK1lbTPYYpgZpyx5U/o8q807owAvPJ55u1JB6yPSOYS4tCtAvHCpWEXhHAkAwqUUcU7qgiwbv1eMmfOIUH9u8L8+R44kFVjkJQFrTHFCZHZI6f4HXnmHO56kqcI/2Zzhm1nIDsUbEGn2tjI17AkAYt7WaBajcxhJ/maXAauacUrNbgFoovy6nPRtRNcg5LL3WiXOFPuQ7IT4fhmZWqr0cs3jUqi+rUeX/KPGGdMC/AkEAjQGgfRPAv6P9PD2THkziUslXCiRK2d9dvXGSP4BMBpNAVqfvFlKy1dgWu05Fnwt0wkosm57XIL3WJo9nXrhQ7w==
+    bocdPublicKey: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCkDy1lb78Se6juLJa9cIpmHQrABhwtp4Rt3FyfSmZKppgqvtV+f1zdfYw+iszlyNXqOOm7INiC/9k3IZMCA4tjXYfoRXVpFXx34TRn+iL2oEXuMLjP0+ONE8nDt21Uf/LovH3UGKg5g9i6zvKJ9OG7xR3ELjy0y1hbaMoGf51PKQIDAQAB
+

@@ -5,6 +5,8 @@ import io.swagger.annotations.Api;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,6 +30,14 @@ import java.util.List;
 @RequestMapping("/test")
 @Api(tags = "测试模块")
 public class TestController {
+
+    @Value("${server.port}")
+    private String port;
+
+    @GetMapping("/testPort")
+    public String testPort() {
+        return port;
+    }
 
     @Resource
     private ModelMapper modelMapper;
@@ -68,7 +78,7 @@ public class TestController {
         throw new RuntimeException("测试");
     }
 
-    @Autowired
+    @Autowired(required = false)
     private RedissonClient redisson;
 
     @GetMapping("/lock")

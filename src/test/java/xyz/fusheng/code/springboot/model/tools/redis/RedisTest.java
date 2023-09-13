@@ -36,6 +36,12 @@ public class RedisTest {
 
     private static final Logger logger = LoggerFactory.getLogger(RedisTest.class);
 
+    // redis:
+    // host: 47.111.158.6
+    // port: 16390
+    // password: Xcode-redis?
+    // database: 1
+
     public JedisPoolConfig getJedisPoolConfig(){
         JedisPoolConfig config=new JedisPoolConfig();
         config.setMaxTotal(50);
@@ -47,11 +53,21 @@ public class RedisTest {
 
     @Test
     public void testJedis() {
-        JedisPool pool =new JedisPool(this.getJedisPoolConfig(),"42.192.222.62",6390,3000,"Xcode-redis?", 7);
+        JedisPool pool =new JedisPool(this.getJedisPoolConfig(),"47.111.158.6",16390,3000,"Xcode-redis?", 1);
         Jedis redis = pool.getResource();
         redis.set("code-fusheng","testJedis");
         redis.close();
         System.out.println("ok");
+    }
+
+    @Test
+    public void testJedisConnectAndClose() throws InterruptedException {
+        JedisPool pool =new JedisPool(this.getJedisPoolConfig(),"47.111.158.6",16390,3000,"Xcode-redis?", 1);
+        Jedis redis = pool.getResource();
+        for (int i = 0; i < 10; i++) {
+            redis.set("test-redis-connect", i+"");
+            Thread.sleep(6000L);
+        }
     }
 
     @Autowired

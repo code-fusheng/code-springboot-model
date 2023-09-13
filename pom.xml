@@ -24,6 +24,7 @@
         <!-- office 相关 -->
         <poi-tl.version>1.12.0</poi-tl.version>
         <liteflow.version>2.9.2</liteflow.version>
+        <easyexcel.version>3.1.1</easyexcel.version>
         <!-- tools -->
         <jjwt.version>0.9.0</jjwt.version>
         <guava.version>31.1-jre</guava.version>
@@ -144,6 +145,29 @@
             <version>0.1.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.bocd.api</groupId>
+            <artifactId>bocd-sign-sdk-1.0</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/src/main/resources/lib/bocd-sign-sdk-1.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ruim.ifsp</groupId>
+            <artifactId>ifsp-utils-1.0.0.4</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/src/main/resources/lib/ifsp-util-1.0.0.4.jar</systemPath>
+        </dependency>
+
+        <!-- EasyExcel-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>${easyexcel.version}</version>
+        </dependency>
+
     </dependencies>
 
     <profiles>
@@ -208,6 +232,29 @@
                     <environmentVariables>
                         <LD_LIBRARY_PATH>/usr/local/Cellar/gdal/3.6.2_2/lib</LD_LIBRARY_PATH>
                     </environmentVariables>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.2.2</version>
+                <configuration>
+                    <imageName>${project.artifactId}</imageName>
+                    <imageTags>
+                        <imageTag>latest</imageTag>
+                    </imageTags>
+                    <!--指定Dockerfile路径-->
+                    <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
+                    <dockerHost>http://47.104.101.5:12375</dockerHost>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <!--${project.basedir}/target-->
+                            <directory>${project.build.directory}</directory>
+                            <!--${project.artifactId}-${project.version}-->
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
                 </configuration>
             </plugin>
         </plugins>

@@ -17,7 +17,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Configuration;
-import xyz.fusheng.code.springboot.core.entity.BaseEntity;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -80,17 +79,22 @@ public class MybatisPlusGenerator {
                     .packageConfig(builder -> builder
                             .parent(parent)
                             .moduleName(moduleName)
+                            .entity("plugin.msg.entity")
                             .controller("controller")
-                            .entity("model.entity")
-                            .service("core.service")
-                            .serviceImpl("core.service.impl")
-                            .mapper("core.mapper")
-                            .xml("core.mapper.xml")
+                            // .entity("model.entity")
+                            // .service("core.service")
+                            .service("plugin.msg.service")
+                            .serviceImpl("plugin.msg.service.impl")
+                            .mapper("plugin.msg.mapper")
+                            // .serviceImpl("core.service.impl")
+                            // .mapper("core.mapper")
+                            // .xml("core.mapper.xml")
                             .build())
                     .strategyConfig(builder -> builder
-                            .addInclude("sys_user", "sys_role", "sys_menu")
+                            // .addInclude("sys_user", "sys_role", "sys_menu")
+                            .addInclude("msg_channel", "msg_template", "msg_rule", "msg_send_record")
                             .entityBuilder()
-                            .superClass(BaseEntity.class)
+                            // .superClass(BaseEntity.class)
                             .enableColumnConstant()
                             .enableLombok()
                             //.versionColumnName("version").versionPropertyName("version")

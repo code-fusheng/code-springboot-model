@@ -26,7 +26,7 @@ public class RedissonConfig {
         Config config = new Config();
         // 2. 单机模式
         config.useSingleServer()
-                .setAddress("redis://localhost:6390")
+                .setAddress("redis://47.111.158.6:16390")
                 .setPassword("Xcode-redis?")
                 .setDatabase(0);
         return Redisson.create(config);
